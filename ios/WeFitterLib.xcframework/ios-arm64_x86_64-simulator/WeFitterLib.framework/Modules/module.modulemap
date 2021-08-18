@@ -1,0 +1,11 @@
+framework module WeFitterLib {
+  umbrella header "WeFitterLib.h"
+
+  export *
+  module * { export * }
+}
+
+module WeFitterLib.Swift {
+    header "WeFitterLib-Swift.h"
+    requires objc
+}
