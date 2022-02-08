@@ -1,17 +1,17 @@
 # react-native-wefitter-ios
 
-React Native library for WeFitter and HealthKit
+React Native library for integrating WeFitter and HealthKit into your app.
 
 ## Installation
 
 ```sh
-yarn add git://github.com/ThunderbyteAI/react-native-wefitter-ios.git#v0.0.1
+yarn add git://github.com/ThunderbyteAI/react-native-wefitter-ios.git#v0.1.0
 ```
 
 In Xcode for your target:
 
 - Set the minimum deployment target to at least iOS 11.3
-- Add `HealthKit` in `Signing & Capabilities`
+- Add `HealthKit` in `Signing & Capabilities` and enable `Background Delivery`
 - Add `Privacy - Health Share Usage Description` in `Info` with an appropriate message
 - Add `Privacy - Health Update Usage Description` in `Info` with an appropriate message
 - Add an Objective-C bridging header file
@@ -37,6 +37,10 @@ Add the following to `AppDelegate.m` and change `YOUR_API_URL`:
   return YES;
 }
 ```
+
+The url should be base without `v1/ingest/` as the plugin will append this. For example: `https://api.wefitter.com/api/`.
+
+By default data of the past 7 days will be uploaded. To override this you can pass a `startDate`.
 
 ## Usage
 
