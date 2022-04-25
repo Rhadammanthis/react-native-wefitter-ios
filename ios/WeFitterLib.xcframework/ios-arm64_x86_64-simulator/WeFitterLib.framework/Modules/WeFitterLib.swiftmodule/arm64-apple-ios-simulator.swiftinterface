@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WeFitterLib
 import Foundation
 import HealthKit
 import Swift
 @_exported import WeFitterLib
+import _Concurrency
 import os.log
 import os
 public enum WeFitterHealthKitError : Swift.Error {
@@ -21,7 +22,7 @@ public enum WeFitterHealthKitError : Swift.Error {
   case noTokenAvailableFor(profileId: Swift.String)
   case invalidToken(token: Swift.String)
 }
-extension WeFitterHealthKitError : Foundation.LocalizedError {
+extension WeFitterLib.WeFitterHealthKitError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
     get
   }
@@ -31,7 +32,6 @@ public typealias ProfileCompletionHandler = (Swift.Bool, WeFitterLib.Profile?, W
 @objc public class WeFitterConfig : ObjectiveC.NSObject {
   @objc public init(url: Swift.String, clientId: Swift.String = "", clientSecret: Swift.String = "", startDate: Foundation.Date? = nil)
   @objc deinit
-  @objc override dynamic public init()
 }
 @objc @_hasMissingDesignatedInitializers public class WeFitter : ObjectiveC.NSObject {
   @objc(setupWithConfig:error:) public static func _setup(with config: WeFitterLib.WeFitterConfig) throws
@@ -48,8 +48,8 @@ public typealias ProfileCompletionHandler = (Swift.Bool, WeFitterLib.Profile?, W
     case notConfigured
     case disconnected
     case connected
-    public typealias RawValue = Swift.Int
     public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
     }
@@ -69,14 +69,13 @@ public typealias ProfileCompletionHandler = (Swift.Bool, WeFitterLib.Profile?, W
     get
   }
   @objc deinit
-  @objc override dynamic public init()
 }
 @objc public enum Gender : Swift.Int, Swift.Codable {
   case M = 0
   case F = 1
   case X = 2
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -88,9 +87,8 @@ public typealias ProfileCompletionHandler = (Swift.Bool, WeFitterLib.Profile?, W
   @objc final public let numberOfMembers: Swift.Int
   public init(name: Swift.String, url: Swift.String, members: [WeFitterLib.Profile] = [], numberOfMembers: Swift.Int = 0)
   @objc deinit
-  @objc override dynamic public init()
-  required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 @objc public class Profile : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let id: Swift.String?
@@ -107,10 +105,9 @@ public typealias ProfileCompletionHandler = (Swift.Bool, WeFitterLib.Profile?, W
   @objc final public let bearer: Swift.String?
   public init(id: Swift.String? = nil, url: Swift.String? = nil, givenName: Swift.String? = nil, familyName: Swift.String? = nil, nickName: Swift.String? = nil, gender: WeFitterLib.Gender? = nil, birthDate: Foundation.Date? = nil, zoneInfo: Swift.String? = nil, locale: Swift.String? = nil, reference: Swift.String? = nil, team: WeFitterLib.Team? = nil, bearer: Swift.String? = nil)
   public init?(from data: Foundation.Data)
-  @objc override dynamic public init()
-  required public init(from decoder: Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 extension WeFitterLib.WeFitter._Status : Swift.Equatable {}
 extension WeFitterLib.WeFitter._Status : Swift.Hashable {}

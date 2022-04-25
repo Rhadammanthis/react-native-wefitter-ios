@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/WeFitterLib-Swift.h</key>
 		<data>
-		0WUnup1Zw6/dsOg23BrUw6FaH7A=
+		8QBbsWW5KUNMuz9w56iSKHV/NW0=
 		</data>
 		<key>Headers/WeFitterLib.h</key>
 		<data>
@@ -14,31 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ypXswQ2d421eqAo2K2tO6y6N4N0=
+		KWgUhQx8Pge4tJm61QsAXqirc3Q=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		M3vkH1aOOTC2chqL4ITY9iUe7BE=
+		QEZ8sTEYXKxxgdfV+gkBTnKLhdE=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		sw8MQ5EHs+MS6XYaClmDeYztsX8=
+		Qj+vkqrE373cfoqlLfzqB+TGVMQ=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KLQmoOmV2YONpsFTtT8S/kOkMxU=
-		</data>
-		<key>Modules/WeFitterLib.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		M3vkH1aOOTC2chqL4ITY9iUe7BE=
-		</data>
-		<key>Modules/WeFitterLib.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		sw8MQ5EHs+MS6XYaClmDeYztsX8=
-		</data>
-		<key>Modules/WeFitterLib.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		KLQmoOmV2YONpsFTtT8S/kOkMxU=
+		r5dt7Ua3XO4wXGNJTV+5hF0YC4M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zRQciMGMfF9U1/iYgDZOqzcmqbFukvoYSaVQUA/hrYs=
+			SRDW8BTaub8+Xu32pRwYFRKyhorLS2gDw11CJ/aEhG4=
 			</data>
 		</dict>
 		<key>Headers/WeFitterLib.h</key>
@@ -65,42 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qpwWN2S1jiNK+D+p282NzsddNq4Df5pQYYL0WtZjtWU=
+			6i1vp+85p8I8Gu20toCtfbsy6LVjgwHsweAQQyIZgu8=
 			</data>
 		</dict>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tq9aZvFqnXXKGYQai4iJANTroPmLYd4jEUNPT3oHPGQ=
+			U2zG90UGKbCsFHaJjrT8Y3wnf381GhBCarkJVvUoGFI=
 			</data>
 		</dict>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LgX2z3/vemE8weXyCwN4UPjD63Mj8uFWVMivq6/HdF8=
-			</data>
-		</dict>
-		<key>Modules/WeFitterLib.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qpwWN2S1jiNK+D+p282NzsddNq4Df5pQYYL0WtZjtWU=
-			</data>
-		</dict>
-		<key>Modules/WeFitterLib.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Tq9aZvFqnXXKGYQai4iJANTroPmLYd4jEUNPT3oHPGQ=
-			</data>
-		</dict>
-		<key>Modules/WeFitterLib.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LgX2z3/vemE8weXyCwN4UPjD63Mj8uFWVMivq6/HdF8=
+			q2r1+zWcCPaziREHdvVrdp82gVRjs1F/QBiVGerQiZw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

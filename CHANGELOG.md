@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0
+
+Added heart rate samples per 15 minutes
+
+Added ECG
+
 ## 0.1.0
 
 Expanded daily summaries to include minimum, maximum, average and resting heart rate
