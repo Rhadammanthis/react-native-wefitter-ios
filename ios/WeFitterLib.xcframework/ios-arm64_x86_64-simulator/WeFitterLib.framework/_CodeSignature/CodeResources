@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QC/xp4zlEVrAf3PtFMcv5W8BJOA=
+		J6hqB+/YwaVB0tfPMCkzuFn4Rko=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W5ZC2JlFsu7mNEkU4BFlGKoe7fY=
+		8O602VAIUIGZ/H8f+jWihoyRhOg=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sIOFZ1SSoHKGmfLq9KzjnXtBpGk=
+		wMYU7D5S42uQ7NW/c0ZcFrdmWLU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P5rTN31LXPeAViVbA/fLs4lWYNF47O9y/GWcZ/DSbYI=
+			ppwn/5maUThqdcl+R2R1BS3fPErr5/s871OFO27mM7s=
 			</data>
 		</dict>
 		<key>Modules/WeFitterLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iDWTo9lF5OUQ/QKVsmjjDQOk0Jp6T82P8ha6QfiD/yI=
+			Rx2jeRy+oTdHQps1xUj5n47kR314fiZxWiBZqGOj4oQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

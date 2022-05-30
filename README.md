@@ -5,7 +5,7 @@ React Native library for integrating WeFitter and HealthKit into your app.
 ## Installation
 
 ```sh
-yarn add git://github.com/ThunderbyteAI/react-native-wefitter-ios.git#v0.2.0
+yarn add git://github.com/ThunderbyteAI/react-native-wefitter-ios.git#v0.2.1
 ```
 
 In Xcode for your target:
