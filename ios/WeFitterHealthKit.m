@@ -1,54 +1,89 @@
 #import "WeFitterHealthKit.h"
 
-@implementation WeFitterHealthKit
-{
+@implementation WeFitterHealthKit {
     bool hasListeners;
 }
 
 // Will be called when this module's first listener is added.
--(void)startObserving {
+- (void)startObserving {
     hasListeners = YES;
 }
 
 // Will be called when this module's last listener is removed, or on dealloc.
--(void)stopObserving {
+- (void)stopObserving {
     hasListeners = NO;
 }
 
--(NSArray<NSString *> *)supportedEvents {
-    return @[@"status-update"];
+- (NSArray<NSString*>*)supportedEvents {
+    return @[ @"status-update" ];
 }
 
 RCT_EXPORT_MODULE();
 
-RCT_EXPORT_METHOD(connect:(NSString *)token
-                  resolver:(RCTPromiseResolveBlock)resolve
-                  rejecter:(RCTPromiseRejectBlock)reject) {
-    if (WeFitter.canConnectToHealthData) {
-        [WeFitter connectBearerToken:token completion:^(BOOL success, NSError * error) {
-            if (success) {
-                [self sendEventWithName:@"status-update" body:@{@"status": @"connected"}];
-                resolve(@(true));
-            } else {
-                reject(@"Error connecting profile: %@", error.localizedDescription, error);
-            }
-        }];
-    } else {
-        reject(@"Cannot connect to HealthKit data", nil, nil);
+RCT_EXPORT_METHOD(configure : (NSDictionary*)config resolver : (RCTPromiseResolveBlock)resolve rejecter : (RCTPromiseRejectBlock)reject) {
+    NSString* token = config[@"token"];
+    NSString* url = config[@"url"];
+    NSString* startDateString = config[@"startDate"];
+
+    // convert NString to NSDate
+    NSDate* startDate = nil;
+    if (startDateString != nil) {
+        NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+        startDate = [dateFormatter dateFromString:startDateString];
     }
+
+    WeFitterConfig* wefitterConfig = [[WeFitterConfig alloc] initWithToken:token url:url startDate:startDate];
+
+    [WeFitter configure:wefitterConfig
+             completion:^(BOOL success, NSError* error) {
+               if (success) {
+                   if (self->hasListeners) {
+                       [self sendEventWithName:@"status-update" body:@{@"status" : @"configured"}];
+                   }
+                   resolve(nil);
+               } else {
+                   reject(@"configure", error.localizedDescription, error);
+               }
+             }];
+}
+
+RCT_EXPORT_METHOD(connect : (RCTPromiseResolveBlock)resolve rejecter : (RCTPromiseRejectBlock)reject) {
+    [WeFitter connect:^(BOOL success, NSError* error) {
+      if (success) {
+          if (self->hasListeners) {
+              [self sendEventWithName:@"status-update" body:@{@"status" : @"connected"}];
+          }
+          resolve(nil);
+      } else {
+          reject(@"connect", error.localizedDescription, error);
+      }
+    }];
 }
 
 RCT_EXPORT_METHOD(disconnect) {
     [WeFitter disconnect];
-    [self sendEventWithName:@"status-update" body:@{@"status": @"disconnected"}];
+    if (hasListeners) {
+        [self sendEventWithName:@"status-update" body:@{@"status" : @"disconnected"}];
+    }
 }
 
+RCT_EXPORT_METHOD(canConnectToHealthData : (RCTResponseSenderBlock)callback) { callback(@[ @(WeFitter.canConnectToHealthData) ]); }
+
+RCT_EXPORT_METHOD(getConnectedProfileId : (RCTResponseSenderBlock)callback) { callback(@[ WeFitter.connectedProfileId ]); }
+
 RCT_EXPORT_METHOD(getStatus) {
-    if(hasListeners) {
-        if ([WeFitter currentStatus] == StatusConnected) {
-            [self sendEventWithName:@"status-update" body:@{@"status": @"connected"}];
-        } else {
-            [self sendEventWithName:@"status-update" body:@{@"status": @"disconnected"}];
+    if (hasListeners) {
+        switch (WeFitter.currentStatus) {
+            case StatusConnected:
+                [self sendEventWithName:@"status-update" body:@{@"status" : @"connected"}];
+                break;
+            case StatusDisconnected:
+                [self sendEventWithName:@"status-update" body:@{@"status" : @"disconnected"}];
+                break;
+            case StatusNotConfigured:
+                [self sendEventWithName:@"status-update" body:@{@"status" : @"not-configured"}];
+                break;
         }
     }
 }

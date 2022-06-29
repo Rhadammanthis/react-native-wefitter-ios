@@ -197,7 +197,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -217,11 +216,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-typedef SWIFT_ENUM(NSInteger, Gender, open) {
-  GenderM = 0,
-  GenderF = 1,
-  GenderX = 2,
-};
 
 
 
@@ -232,59 +226,25 @@ typedef SWIFT_ENUM(NSInteger, Gender, open) {
 
 
 
-
-
-@class NSString;
-@class NSDate;
-@class Team;
-
-SWIFT_CLASS("_TtC11WeFitterLib7Profile")
-@interface Profile : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nullable id;
-@property (nonatomic, readonly, copy) NSString * _Nullable url;
-@property (nonatomic, readonly, copy) NSString * _Nullable givenName;
-@property (nonatomic, readonly, copy) NSString * _Nullable familyName;
-@property (nonatomic, readonly, copy) NSString * _Nullable nickName;
-@property (nonatomic, readonly, copy) NSDate * _Nullable birthDate;
-@property (nonatomic, readonly, copy) NSString * _Nullable zoneInfo;
-@property (nonatomic, readonly, copy) NSString * _Nullable locale;
-@property (nonatomic, readonly, copy) NSString * _Nullable reference;
-@property (nonatomic, readonly, strong) Team * _Nullable team;
-@property (nonatomic, readonly, copy) NSString * _Nullable bearer;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC11WeFitterLib4Team")
-@interface Team : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull name;
-@property (nonatomic, readonly, copy) NSString * _Nonnull url;
-@property (nonatomic, readonly, copy) NSArray<Profile *> * _Nonnull members;
-@property (nonatomic, readonly) NSInteger numberOfMembers;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 @class WeFitterConfig;
 @class NSError;
 enum Status : NSInteger;
+@class NSString;
 
 SWIFT_CLASS("_TtC11WeFitterLib8WeFitter")
 @interface WeFitter : NSObject
-+ (BOOL)setupWithConfig:(WeFitterConfig * _Nonnull)config error:(NSError * _Nullable * _Nullable)error;
-+ (BOOL)applyConfig:(WeFitterConfig * _Nonnull)config error:(NSError * _Nullable * _Nullable)error;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
++ (void)configure:(WeFitterConfig * _Nonnull)config completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL canConnectToHealthData;)
 + (BOOL)canConnectToHealthData SWIFT_WARN_UNUSED_RESULT;
-+ (void)connectBearerToken:(NSString * _Nonnull)bearerToken completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
++ (void)connect:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 + (void)disconnect;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) enum Status currentStatus;)
 + (enum Status)currentStatus SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Profile * _Nullable currentlyConnectedProfile;)
-+ (Profile * _Nullable)currentlyConnectedProfile SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable connectedProfileId;)
++ (NSString * _Nullable)connectedProfileId SWIFT_WARN_UNUSED_RESULT;
 @end
 
 typedef SWIFT_ENUM_NAMED(NSInteger, Status, "_Status", open) {
@@ -293,10 +253,14 @@ typedef SWIFT_ENUM_NAMED(NSInteger, Status, "_Status", open) {
   StatusConnected = 2,
 };
 
+@class NSDate;
 
 SWIFT_CLASS("_TtC11WeFitterLib14WeFitterConfig")
 @interface WeFitterConfig : NSObject
-- (nonnull instancetype)initWithUrl:(NSString * _Nonnull)url clientId:(NSString * _Nonnull)clientId clientSecret:(NSString * _Nonnull)clientSecret startDate:(NSDate * _Nullable)startDate OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -505,7 +469,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -525,11 +488,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-typedef SWIFT_ENUM(NSInteger, Gender, open) {
-  GenderM = 0,
-  GenderF = 1,
-  GenderX = 2,
-};
 
 
 
@@ -540,59 +498,25 @@ typedef SWIFT_ENUM(NSInteger, Gender, open) {
 
 
 
-
-
-@class NSString;
-@class NSDate;
-@class Team;
-
-SWIFT_CLASS("_TtC11WeFitterLib7Profile")
-@interface Profile : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nullable id;
-@property (nonatomic, readonly, copy) NSString * _Nullable url;
-@property (nonatomic, readonly, copy) NSString * _Nullable givenName;
-@property (nonatomic, readonly, copy) NSString * _Nullable familyName;
-@property (nonatomic, readonly, copy) NSString * _Nullable nickName;
-@property (nonatomic, readonly, copy) NSDate * _Nullable birthDate;
-@property (nonatomic, readonly, copy) NSString * _Nullable zoneInfo;
-@property (nonatomic, readonly, copy) NSString * _Nullable locale;
-@property (nonatomic, readonly, copy) NSString * _Nullable reference;
-@property (nonatomic, readonly, strong) Team * _Nullable team;
-@property (nonatomic, readonly, copy) NSString * _Nullable bearer;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC11WeFitterLib4Team")
-@interface Team : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull name;
-@property (nonatomic, readonly, copy) NSString * _Nonnull url;
-@property (nonatomic, readonly, copy) NSArray<Profile *> * _Nonnull members;
-@property (nonatomic, readonly) NSInteger numberOfMembers;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 @class WeFitterConfig;
 @class NSError;
 enum Status : NSInteger;
+@class NSString;
 
 SWIFT_CLASS("_TtC11WeFitterLib8WeFitter")
 @interface WeFitter : NSObject
-+ (BOOL)setupWithConfig:(WeFitterConfig * _Nonnull)config error:(NSError * _Nullable * _Nullable)error;
-+ (BOOL)applyConfig:(WeFitterConfig * _Nonnull)config error:(NSError * _Nullable * _Nullable)error;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
++ (void)configure:(WeFitterConfig * _Nonnull)config completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL canConnectToHealthData;)
 + (BOOL)canConnectToHealthData SWIFT_WARN_UNUSED_RESULT;
-+ (void)connectBearerToken:(NSString * _Nonnull)bearerToken completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
++ (void)connect:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 + (void)disconnect;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) enum Status currentStatus;)
 + (enum Status)currentStatus SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Profile * _Nullable currentlyConnectedProfile;)
-+ (Profile * _Nullable)currentlyConnectedProfile SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable connectedProfileId;)
++ (NSString * _Nullable)connectedProfileId SWIFT_WARN_UNUSED_RESULT;
 @end
 
 typedef SWIFT_ENUM_NAMED(NSInteger, Status, "_Status", open) {
@@ -601,10 +525,14 @@ typedef SWIFT_ENUM_NAMED(NSInteger, Status, "_Status", open) {
   StatusConnected = 2,
 };
 
+@class NSDate;
 
 SWIFT_CLASS("_TtC11WeFitterLib14WeFitterConfig")
 @interface WeFitterConfig : NSObject
-- (nonnull instancetype)initWithUrl:(NSString * _Nonnull)url clientId:(NSString * _Nonnull)clientId clientSecret:(NSString * _Nonnull)clientSecret startDate:(NSDate * _Nullable)startDate OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

@@ -26,8 +26,6 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
-#import <WeFitterLib/WeFitterLib.h>
-
 #ifdef FB_SONARKIT_ENABLED
 #import <FlipperKit/FlipperClient.h>
 #import <FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>
@@ -71,15 +69,6 @@ static void InitializeFlipper(UIApplication *application) {
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
-
-  // Begin setup WeFitter
-  WeFitterConfig *config = [[WeFitterConfig alloc] initWithUrl:@"YOUR_API_URL" clientId:@"" clientSecret:@"" startDate:nil];
-  NSError *error;
-  BOOL success = [WeFitter setupWithConfig:config error:&error];
-  if (!success) {
-      NSLog(@"Error setting up WeFitter: %@", error.localizedDescription);
-  }
-  // End setup WeFitter
 
   return YES;
 }

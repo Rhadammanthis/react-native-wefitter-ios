@@ -5,7 +5,7 @@ React Native library for integrating WeFitter and HealthKit into your app.
 ## Installation
 
 ```sh
-yarn add git://github.com/ThunderbyteAI/react-native-wefitter-ios.git#v0.2.1
+yarn add https://github.com/ThunderbyteAI/react-native-wefitter-ios.git#v1.0.0
 ```
 
 In Xcode for your target:
@@ -16,68 +16,68 @@ In Xcode for your target:
 - Add `Privacy - Health Update Usage Description` in `Info` with an appropriate message
 - Add an Objective-C bridging header file
 
-Add the following to `AppDelegate.m` and change `YOUR_API_URL`:
-
-```objective-c
-#import <WeFitterLib/WeFitterLib.h>
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-  // ...
-
-  // Begin setup WeFitter
-  WeFitterConfig *config = [[WeFitterConfig alloc] initWithUrl:@"YOUR_API_URL" clientId:@"" clientSecret:@"" startDate:nil];
-  NSError *error;
-  BOOL success = [WeFitter setupWithConfig:config error:&error];
-  if (!success) {
-      NSLog(@"Error setting up WeFitter: %@", error.localizedDescription);
-  }
-  // End setup WeFitter
-
-  return YES;
-}
-```
-
-The url should be base without `v1/ingest/` as the plugin will append this. For example: `https://api.wefitter.com/api/`.
-
-By default data of the past 7 days will be uploaded. To override this you can pass a `startDate`.
-
 ## Usage
 
-Add the following code and change `YOUR_TOKEN`:
+Add the following code:
 
 ```ts
-import WeFitterHealthKit from 'react-native-wefitter-ios';
-
-// ...
-
+const [supported, setSupported] = useState<boolean>(false);
 const [connected, setConnected] = useState<boolean>(false);
 
 useEffect(() => {
   if (Platform.OS === 'ios') {
-    // create native event emitter and event listener to handle status updates
-    const emitter = new NativeEventEmitter(NativeModules.WeFitterHealthKit);
-    const listener = emitter.addListener('status-update', (event) =>
-      // handle status update result
-      // `event.status` can be `connected` or `disconnected`
-      setConnected(event.status === 'connected')
+    WeFitterHealthKit.canConnectToHealthData((supported) =>
+      setSupported(supported)
     );
-    // request status update which the listener will receive
+  }
+}, []);
+
+useEffect(() => {
+  if (supported) {
+    // Create native event emitter and event listener to handle status updates
+    const emitter = new NativeEventEmitter(NativeModules.WeFitterHealthKit);
+    const listener = emitter.addListener('status-update', (event) => {
+      // Handle status update result
+      switch (event.status) {
+        case 'configured':
+          break;
+        case 'not-configured':
+          break;
+        case 'connected':
+          setConnected(true);
+          break;
+        case 'disconnected':
+          setConnected(false);
+          break;
+      }
+    });
+    // Request status update which the listener will receive
     WeFitterHealthKit.getStatus();
+
+    let config = {
+      token: 'YOUR_TOKEN', // required, WeFitter API profile bearer token
+      url: 'CUSTOM_URL', // optional, the url should be base without `v1.3/ingest/` as the library will append this. Default: `https://api.wefitter.com/api/`
+      startDate: 'CUSTOM_START_DATE', // optional with format `yyyy-MM-dd`, by default data of the past 7 days will be uploaded
+    };
+
+    // Configure should be called every time your app starts when HealthKit is supported
+    WeFitterHealthKit.configure(config).catch((e) => console.log(e));
+
     return () => listener.remove();
   }
   return;
-}, []);
+}, [supported]);
 
 const onPressConnectOrDisconnect = () => {
-  if (Platform.OS === 'ios') {
+  if (supported) {
+    // Connect can be called after configure has succeeded
     connected
       ? WeFitterHealthKit.disconnect()
-      : WeFitterHealthKit.connect('YOUR_TOKEN');
+      : WeFitterHealthKit.connect().catch((e) => console.log(e));
   } else {
     Alert.alert(
       'Not supported',
-      'WeFitterHealthKit is not supported on Android'
+      'WeFitterHealthKit is not supported on this device'
     );
   }
 };

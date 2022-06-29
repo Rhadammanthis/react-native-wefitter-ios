@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/WeFitterLib-Swift.h</key>
 		<data>
-		Jce8TcH1bMRZClVbgRYQedXMsRw=
+		SSMu+Z5eJh5EDAsp3H97B09Rs4s=
 		</data>
 		<key>Headers/WeFitterLib.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J6hqB+/YwaVB0tfPMCkzuFn4Rko=
+		hU5QwEONTXdtjyGINYlznHDdb5A=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0Tgy5lqlHqzThWNHMJ+9zpqp5nU=
+		0S0rXcNlSS94ePQQV1bEIDz2WM4=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8O602VAIUIGZ/H8f+jWihoyRhOg=
+		t+JDKplGkN1nRQOy0euLDahFA+s=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		w4wHcDqttNXIIoLTC9L2/ismgzE=
+		EBaasQVthLeo1qhmwLlJtMpzpo8=
 		</data>
 		<key>Modules/WeFitterLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wMYU7D5S42uQ7NW/c0ZcFrdmWLU=
+		vMu32NftpsbYpClVxL/npJyn7Rs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s8tGA+xTMRbXVCEMmJ23BIhSgCBpkJ1o5CJDVrTkqQI=
+			MKbpiaWl+rFYSBPGQGWal9kNgN99vSoYTqWkm89ZGN4=
 			</data>
 		</dict>
 		<key>Headers/WeFitterLib.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lRRviQu6gpsz90AFj7XU2BhTbzAprOpZomcL3GuX1RM=
+			9ZwvcVosiw2woszA2f6+tG1M/eerIDLzCbUY8xpVazk=
 			</data>
 		</dict>
 		<key>Modules/WeFitterLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ppwn/5maUThqdcl+R2R1BS3fPErr5/s871OFO27mM7s=
+			BIGz3Lg2Tcp2IfIlmB4xWxOT5ARLP63RQleeRRAz+Uc=
 			</data>
 		</dict>
 		<key>Modules/WeFitterLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uLHdTHvLdZKCkAgmSLkd3zeUK9+NH+913LDUQcH+F8o=
+			w2KnG2D1hcCUiNo2eXp+avsIK2eJh11LUi1JKIxwpQg=
 			</data>
 		</dict>
 		<key>Modules/WeFitterLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rx2jeRy+oTdHQps1xUj5n47kR314fiZxWiBZqGOj4oQ=
+			CZrtDzoJqx4HrU8ZfcPaC5HJqQ3ApblsX9PcQT/Zjyc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
