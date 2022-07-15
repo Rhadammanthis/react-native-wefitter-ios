@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0
+
+Added daily detail samples per 15 minutes containing steps, distance and energy
+
+Added end date to heart rate samples
+
+Fixed `HKElectrocardiogramQuery` symbol not found crash on devices before iOS 14
+
 ## 1.0.0
 
 Updated WeFitter API version to 1.3
