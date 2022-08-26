@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+
+Added basal and active energy burned to daily summaries
+
 ## 1.1.0
 
 Added daily detail samples per 15 minutes containing steps, distance and energy
