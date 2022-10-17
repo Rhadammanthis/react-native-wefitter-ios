@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+
+Added more detailed heart rate data to workouts
+
 ## 1.2.0
 
 Added basal and active energy burned to daily summaries
