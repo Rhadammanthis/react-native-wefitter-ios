@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.0
+
+Added sleep stages on iOS 16+
+
+Changed default start date from 7 to 20 days back
+
+Force data refresh
+
 ## 1.3.0
 
 Added more detailed heart rate data to workouts

@@ -1,6 +1,6 @@
 {
   "name": "react-native-wefitter-ios",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "React Native library for WeFitter and HealthKit",
   "private": true,
   "main": "lib/commonjs/index",
@@ -34,13 +34,13 @@
     "react-native",
     "ios"
   ],
-  "repository": "https://github.com/ThunderbyteAI/react-native-wefitter-ios",
-  "author": "Thunderbyte.AI <info@thunderbyte.ai> (https://github.com/ThunderbyteAI)",
+  "repository": "https://github.com/wefitter/react-native-wefitter-ios",
+  "author": "WeFitter <hello@wefitter.com> (https://github.com/wefitter)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/ThunderbyteAI/react-native-wefitter-ios/issues"
+    "url": "https://github.com/wefitter/react-native-wefitter-ios/issues"
   },
-  "homepage": "https://github.com/ThunderbyteAI/react-native-wefitter-ios#readme",
+  "homepage": "https://github.com/wefitter/react-native-wefitter-ios#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

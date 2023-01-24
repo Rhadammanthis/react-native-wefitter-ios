@@ -6,6 +6,6 @@ framework module WeFitterLib {
 }
 
 module WeFitterLib.Swift {
-    header "WeFitterLib-Swift.h"
-    requires objc
+  header "WeFitterLib-Swift.h"
+  requires objc
 }

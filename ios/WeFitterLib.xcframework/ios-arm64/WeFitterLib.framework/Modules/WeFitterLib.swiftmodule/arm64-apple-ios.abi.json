@@ -1,0 +1,3791 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WeFitterHealthKitError",
+        "printedName": "WeFitterHealthKitError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "authorizationNotGranted",
+            "printedName": "authorizationNotGranted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> (Swift.String) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> WeFitterLib.WeFitterHealthKitError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(description: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO23authorizationNotGrantedyACSS_tcACmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO23authorizationNotGrantedyACSS_tcACmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "apiURLNotValid",
+            "printedName": "apiURLNotValid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitError",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError",
+                    "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO14apiURLNotValidyA2CmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO14apiURLNotValidyA2CmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "bridgeCouldNotBeSetUp",
+            "printedName": "bridgeCouldNotBeSetUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitError",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError",
+                    "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO21bridgeCouldNotBeSetUpyA2CmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO21bridgeCouldNotBeSetUpyA2CmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "HealthKitStoreNotAvailable",
+            "printedName": "HealthKitStoreNotAvailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitError",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError",
+                    "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO0dE17StoreNotAvailableyA2CmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO0dE17StoreNotAvailableyA2CmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "couldNotStartHealthKitQuery",
+            "printedName": "couldNotStartHealthKitQuery",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitError",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError",
+                    "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO013couldNotStartdE5QueryyA2CmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO013couldNotStartdE5QueryyA2CmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidHost",
+            "printedName": "invalidHost",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitError",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError",
+                    "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO11invalidHostyA2CmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO11invalidHostyA2CmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidScheme",
+            "printedName": "invalidScheme",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitError",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError",
+                    "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO13invalidSchemeyA2CmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO13invalidSchemeyA2CmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "noProfileIdProvided",
+            "printedName": "noProfileIdProvided",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitError",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError",
+                    "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO19noProfileIdProvidedyA2CmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO19noProfileIdProvidedyA2CmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "noTokenAvailableFor",
+            "printedName": "noTokenAvailableFor",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> (Swift.String) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> WeFitterLib.WeFitterHealthKitError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(profileId: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO19noTokenAvailableForyACSS_tcACmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO19noTokenAvailableForyACSS_tcACmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidToken",
+            "printedName": "invalidToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> (Swift.String) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> WeFitterLib.WeFitterHealthKitError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(token: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO12invalidTokenyACSS_tcACmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO12invalidTokenyACSS_tcACmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "failedToValidateProfile",
+            "printedName": "failedToValidateProfile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitError.Type) -> (Swift.String) -> WeFitterLib.WeFitterHealthKitError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> WeFitterLib.WeFitterHealthKitError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(profileId: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitError",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError",
+                        "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO23failedToValidateProfileyACSS_tcACmF",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO23failedToValidateProfileyACSS_tcACmF",
+            "moduleName": "WeFitterLib"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WeFitterLib0aB14HealthKitErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO16errorDescriptionSSSgvp",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WeFitterLib0aB14HealthKitErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO16errorDescriptionSSSgvg",
+                "moduleName": "WeFitterLib",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11WeFitterLib0aB14HealthKitErrorO",
+        "mangledName": "$s11WeFitterLib0aB14HealthKitErrorO",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WeFitterConfig",
+        "printedName": "WeFitterConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:url:startDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:startDate:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDateACSS_SSSg10Foundation0H0VSgtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:url:startDate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5tokenACSS_tcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3urlACSS_SSSgtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:url:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:startDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:startDate:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token9startDateACSS_10Foundation0G0VSgtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:startDate:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)init",
+            "mangledName": "$s11WeFitterLib0aB6ConfigCACycfc",
+            "moduleName": "WeFitterLib",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig",
+        "mangledName": "$s11WeFitterLib0aB6ConfigC",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WeFitter",
+        "printedName": "WeFitter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitter",
+                "printedName": "WeFitterLib.WeFitter",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(im)init",
+            "mangledName": "$s11WeFitterLib0aB0CACycfc",
+            "moduleName": "WeFitterLib",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "_configure",
+            "printedName": "_configure(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cm)configure:completion:",
+            "mangledName": "$s11WeFitterLib0aB0C10_configure_10completionyAA0aB6ConfigC_ySb_So7NSErrorCSgtctFZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "objc_name": "configure:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, WeFitterLib.WeFitterHealthKitError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, WeFitterLib.WeFitterHealthKitError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WeFitterHealthKitError",
+                            "printedName": "WeFitterLib.WeFitterHealthKitError",
+                            "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WeFitterLib0aB0C9configure_10completionyAA0aB6ConfigC_ySb_AA0aB14HealthKitErrorOSgtctFZ",
+            "mangledName": "$s11WeFitterLib0aB0C9configure_10completionyAA0aB6ConfigC_ySb_AA0aB14HealthKitErrorOSgtctFZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "canConnectToHealthData",
+            "printedName": "canConnectToHealthData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cpy)canConnectToHealthData",
+            "mangledName": "$s11WeFitterLib0aB0C22canConnectToHealthDataSbvpZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cm)canConnectToHealthData",
+                "mangledName": "$s11WeFitterLib0aB0C22canConnectToHealthDataSbvgZ",
+                "moduleName": "WeFitterLib",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "_connect",
+            "printedName": "_connect(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cm)connect:",
+            "mangledName": "$s11WeFitterLib0aB0C8_connect10completionyySb_So7NSErrorCSgtc_tFZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "objc_name": "connect:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, WeFitterLib.WeFitterHealthKitError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, WeFitterLib.WeFitterHealthKitError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "WeFitterLib.WeFitterHealthKitError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WeFitterHealthKitError",
+                            "printedName": "WeFitterLib.WeFitterHealthKitError",
+                            "usr": "s:11WeFitterLib0aB14HealthKitErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WeFitterLib0aB0C7connect10completionyySb_AA0aB14HealthKitErrorOSgtc_tFZ",
+            "mangledName": "$s11WeFitterLib0aB0C7connect10completionyySb_AA0aB14HealthKitErrorOSgtc_tFZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cm)disconnect",
+            "mangledName": "$s11WeFitterLib0aB0C10disconnectyyFZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "_Status",
+            "printedName": "_Status",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "notConfigured",
+                "printedName": "notConfigured",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WeFitterLib.WeFitter._Status.Type) -> WeFitterLib.WeFitter._Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_Status",
+                        "printedName": "WeFitterLib.WeFitter._Status",
+                        "usr": "s:11WeFitterLib0aB0C7_StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WeFitterLib.WeFitter._Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_Status",
+                            "printedName": "WeFitterLib.WeFitter._Status",
+                            "usr": "s:11WeFitterLib0aB0C7_StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11WeFitterLib0aB0C7_StatusO13notConfiguredyA2EmF",
+                "mangledName": "$s11WeFitterLib0aB0C7_StatusO13notConfiguredyA2EmF",
+                "moduleName": "WeFitterLib",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "disconnected",
+                "printedName": "disconnected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WeFitterLib.WeFitter._Status.Type) -> WeFitterLib.WeFitter._Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_Status",
+                        "printedName": "WeFitterLib.WeFitter._Status",
+                        "usr": "s:11WeFitterLib0aB0C7_StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WeFitterLib.WeFitter._Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_Status",
+                            "printedName": "WeFitterLib.WeFitter._Status",
+                            "usr": "s:11WeFitterLib0aB0C7_StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11WeFitterLib0aB0C7_StatusO12disconnectedyA2EmF",
+                "mangledName": "$s11WeFitterLib0aB0C7_StatusO12disconnectedyA2EmF",
+                "moduleName": "WeFitterLib",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "connected",
+                "printedName": "connected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WeFitterLib.WeFitter._Status.Type) -> WeFitterLib.WeFitter._Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_Status",
+                        "printedName": "WeFitterLib.WeFitter._Status",
+                        "usr": "s:11WeFitterLib0aB0C7_StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WeFitterLib.WeFitter._Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_Status",
+                            "printedName": "WeFitterLib.WeFitter._Status",
+                            "usr": "s:11WeFitterLib0aB0C7_StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11WeFitterLib0aB0C7_StatusO9connectedyA2EmF",
+                "mangledName": "$s11WeFitterLib0aB0C7_StatusO9connectedyA2EmF",
+                "moduleName": "WeFitterLib",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WeFitterLib.WeFitter._Status?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_Status",
+                        "printedName": "WeFitterLib.WeFitter._Status",
+                        "usr": "s:11WeFitterLib0aB0C7_StatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11WeFitterLib0aB0C7_StatusO8rawValueAESgSi_tcfc",
+                "mangledName": "$s11WeFitterLib0aB0C7_StatusO8rawValueAESgSi_tcfc",
+                "moduleName": "WeFitterLib",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11WeFitterLib0aB0C7_StatusO8rawValueSivp",
+                "mangledName": "$s11WeFitterLib0aB0C7_StatusO8rawValueSivp",
+                "moduleName": "WeFitterLib",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11WeFitterLib0aB0C7_StatusO8rawValueSivg",
+                    "mangledName": "$s11WeFitterLib0aB0C7_StatusO8rawValueSivg",
+                    "moduleName": "WeFitterLib",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11WeFitterLib0aB0C7_StatusO",
+            "mangledName": "$s11WeFitterLib0aB0C7_StatusO",
+            "moduleName": "WeFitterLib",
+            "objc_name": "Status",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Status",
+            "printedName": "Status",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "notConfigured",
+                "printedName": "notConfigured",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WeFitterLib.WeFitter.Status.Type) -> WeFitterLib.WeFitter.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "WeFitterLib.WeFitter.Status",
+                        "usr": "s:11WeFitterLib0aB0C6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WeFitterLib.WeFitter.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "WeFitterLib.WeFitter.Status",
+                            "usr": "s:11WeFitterLib0aB0C6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11WeFitterLib0aB0C6StatusO13notConfiguredyA2EmF",
+                "mangledName": "$s11WeFitterLib0aB0C6StatusO13notConfiguredyA2EmF",
+                "moduleName": "WeFitterLib"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnected",
+                "printedName": "disconnected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WeFitterLib.WeFitter.Status.Type) -> WeFitterLib.WeFitter.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "WeFitterLib.WeFitter.Status",
+                        "usr": "s:11WeFitterLib0aB0C6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WeFitterLib.WeFitter.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "WeFitterLib.WeFitter.Status",
+                            "usr": "s:11WeFitterLib0aB0C6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11WeFitterLib0aB0C6StatusO12disconnectedyA2EmF",
+                "mangledName": "$s11WeFitterLib0aB0C6StatusO12disconnectedyA2EmF",
+                "moduleName": "WeFitterLib"
+              },
+              {
+                "kind": "Var",
+                "name": "connected",
+                "printedName": "connected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WeFitterLib.WeFitter.Status.Type) -> (Swift.String) -> WeFitterLib.WeFitter.Status",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> WeFitterLib.WeFitter.Status",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "WeFitterLib.WeFitter.Status",
+                            "usr": "s:11WeFitterLib0aB0C6StatusO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(profileId: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WeFitterLib.WeFitter.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "WeFitterLib.WeFitter.Status",
+                            "usr": "s:11WeFitterLib0aB0C6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11WeFitterLib0aB0C6StatusO9connectedyAESS_tcAEmF",
+                "mangledName": "$s11WeFitterLib0aB0C6StatusO9connectedyAESS_tcAEmF",
+                "moduleName": "WeFitterLib"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11WeFitterLib0aB0C6StatusO",
+            "mangledName": "$s11WeFitterLib0aB0C6StatusO",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_currentStatus",
+            "printedName": "_currentStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_Status",
+                "printedName": "WeFitterLib.WeFitter._Status",
+                "usr": "s:11WeFitterLib0aB0C7_StatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cpy)currentStatus",
+            "mangledName": "$s11WeFitterLib0aB0C14_currentStatusAC01_E0OvpZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "objc_name": "currentStatus",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Status",
+                    "printedName": "WeFitterLib.WeFitter._Status",
+                    "usr": "s:11WeFitterLib0aB0C7_StatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cm)currentStatus",
+                "mangledName": "$s11WeFitterLib0aB0C14_currentStatusAC01_E0OvgZ",
+                "moduleName": "WeFitterLib",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectedProfileId",
+            "printedName": "connectedProfileId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cpy)connectedProfileId",
+            "mangledName": "$s11WeFitterLib0aB0C18connectedProfileIdSSSgvpZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitter(cm)connectedProfileId",
+                "mangledName": "$s11WeFitterLib0aB0C18connectedProfileIdSSSgvgZ",
+                "moduleName": "WeFitterLib",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentStatus",
+            "printedName": "currentStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "WeFitterLib.WeFitter.Status",
+                "usr": "s:11WeFitterLib0aB0C6StatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WeFitterLib0aB0C13currentStatusAC0E0OvpZ",
+            "mangledName": "$s11WeFitterLib0aB0C13currentStatusAC0E0OvpZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Status",
+                    "printedName": "WeFitterLib.WeFitter.Status",
+                    "usr": "s:11WeFitterLib0aB0C6StatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WeFitterLib0aB0C13currentStatusAC0E0OvgZ",
+                "mangledName": "$s11WeFitterLib0aB0C13currentStatusAC0E0OvgZ",
+                "moduleName": "WeFitterLib",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WeFitterLib@objc(cs)WeFitter",
+        "mangledName": "$s11WeFitterLib0aB0C",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WeFitterLib"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 10,
+      "value": "\"WeFitter\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 5,
+      "value": "\"SDK\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileNameComponents.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 5,
+      "value": "\"---\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 17,
+      "value": "\"WeFitter\/Upload\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 21,
+      "value": "\"WeFitter\/UploadBulk\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 17,
+      "value": "\"WeFitter\/Upload\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 21,
+      "value": "\"WeFitter\/UploadBulk\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 37,
+      "value": "\"com.wefitter.queue.fileserver.write\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 5,
+      "value": "\"GMT\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "StringLiteral",
+      "offset": 3167,
+      "length": 14,
+      "value": "\"WeFitterLib.WeFitterConfig\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "StringLiteral",
+      "offset": 4177,
+      "length": 27,
+      "value": "\"WeFitterCurrentProfileKey\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13621,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13647,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13621,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13647,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 9,
+      "value": "\"Network\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 10,
+      "value": "\"Keychain\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 1895,
+      "length": 5,
+      "value": "\"omh\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 1955,
+      "length": 4,
+      "value": "\"wf\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2013,
+      "length": 4,
+      "value": "\"wf\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2067,
+      "length": 5,
+      "value": "\"omh\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2118,
+      "length": 5,
+      "value": "\"omh\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2164,
+      "length": 5,
+      "value": "\"omh\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2217,
+      "length": 5,
+      "value": "\"omh\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 5,
+      "value": "\"omh\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2323,
+      "length": 4,
+      "value": "\"wf\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2376,
+      "length": 5,
+      "value": "\"omh\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2420,
+      "length": 4,
+      "value": "\"wf\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2615,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2674,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2729,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2780,
+      "length": 5,
+      "value": "\"2.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2826,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2923,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 2985,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 3039,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "kind": "StringLiteral",
+      "offset": 3083,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 8,
+      "value": "\"header\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 20,
+      "value": "\"creation_date_time\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 11,
+      "value": "\"schema_id\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 11,
+      "value": "\"namespace\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 24,
+      "value": "\"acquisition_provenance\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 13,
+      "value": "\"source_name\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 10,
+      "value": "\"modality\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 22,
+      "value": "\"effective_time_frame\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 11,
+      "value": "\"date_time\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 15,
+      "value": "\"time_interval\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 814,
+      "length": 17,
+      "value": "\"start_date_time\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 865,
+      "length": 15,
+      "value": "\"end_date_time\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 932,
+      "length": 10,
+      "value": "\"metadata\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1037,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1074,
+      "length": 15,
+      "value": "\"activity_name\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1116,
+      "length": 10,
+      "value": "\"distance\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1162,
+      "length": 21,
+      "value": "\"resting_kcal_burned\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1220,
+      "length": 20,
+      "value": "\"active_kcal_burned\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 13,
+      "value": "\"kcal_burned\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1316,
+      "length": 10,
+      "value": "\"duration\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1354,
+      "length": 12,
+      "value": "\"step_count\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
+      "length": 6,
+      "value": "\"date\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 6,
+      "value": "\"unit\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1533,
+      "length": 15,
+      "value": "\"category_type\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1580,
+      "length": 16,
+      "value": "\"category_value\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 23,
+      "value": "\"descriptive_statistic\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1690,
+      "length": 17,
+      "value": "\"heart_rate_data\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 12,
+      "value": "\"heart_rate\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 18,
+      "value": "\"sample_frequency\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1857,
+      "length": 14,
+      "value": "\"sample_count\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1898,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1931,
+      "length": 6,
+      "value": "\"time\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1965,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 5,
+      "value": "\"avg\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2200,
+      "length": 5,
+      "value": "\"min\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2231,
+      "length": 5,
+      "value": "\"max\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2321,
+      "length": 15,
+      "value": "\"blood_glucose\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2375,
+      "length": 14,
+      "value": "\"diastolic_bp\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2427,
+      "length": 13,
+      "value": "\"systolic_bp\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2474,
+      "length": 21,
+      "value": "\"body_fat_percentage\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
+      "length": 17,
+      "value": "\"body_mass_index\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2567,
+      "length": 13,
+      "value": "\"body_weight\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2612,
+      "length": 18,
+      "value": "\"body_temperature\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2653,
+      "length": 13,
+      "value": "\"body_height\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2699,
+      "length": 19,
+      "value": "\"oxygen_saturation\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2741,
+      "length": 9,
+      "value": "\"vo2_max\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2321,
+      "length": 15,
+      "value": "\"blood_glucose\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2375,
+      "length": 14,
+      "value": "\"diastolic_bp\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2427,
+      "length": 13,
+      "value": "\"systolic_bp\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2474,
+      "length": 21,
+      "value": "\"body_fat_percentage\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
+      "length": 17,
+      "value": "\"body_mass_index\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2567,
+      "length": 13,
+      "value": "\"body_weight\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2612,
+      "length": 18,
+      "value": "\"body_temperature\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2653,
+      "length": 13,
+      "value": "\"body_height\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2699,
+      "length": 19,
+      "value": "\"oxygen_saturation\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2741,
+      "length": 9,
+      "value": "\"vo2_max\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2924,
+      "length": 15,
+      "value": "\"blood-glucose\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2978,
+      "length": 29,
+      "value": "\"wf-diastolic-blood-pressure\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3045,
+      "length": 28,
+      "value": "\"wf-systolic-blood-pressure\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3107,
+      "length": 21,
+      "value": "\"body-fat-percentage\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3158,
+      "length": 17,
+      "value": "\"body-mass-index\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3200,
+      "length": 13,
+      "value": "\"body-weight\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3245,
+      "length": 18,
+      "value": "\"body-temperature\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3286,
+      "length": 13,
+      "value": "\"body-height\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 19,
+      "value": "\"oxygen-saturation\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3374,
+      "length": 9,
+      "value": "\"vo2-max\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3403,
+      "length": 24,
+      "value": "\"heart-rate-variability\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2924,
+      "length": 15,
+      "value": "\"blood-glucose\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2978,
+      "length": 29,
+      "value": "\"wf-diastolic-blood-pressure\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3045,
+      "length": 28,
+      "value": "\"wf-systolic-blood-pressure\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3107,
+      "length": 21,
+      "value": "\"body-fat-percentage\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3158,
+      "length": 17,
+      "value": "\"body-mass-index\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3200,
+      "length": 13,
+      "value": "\"body-weight\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3245,
+      "length": 18,
+      "value": "\"body-temperature\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3286,
+      "length": 13,
+      "value": "\"body-height\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 19,
+      "value": "\"oxygen-saturation\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3374,
+      "length": 9,
+      "value": "\"vo2-max\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3403,
+      "length": 24,
+      "value": "\"heart-rate-variability\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3492,
+      "length": 18,
+      "value": "\"total_sleep_time\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3548,
+      "length": 19,
+      "value": "\"sleep_stages_data\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3600,
+      "length": 13,
+      "value": "\"sleep_awake\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3646,
+      "length": 13,
+      "value": "\"sleep_light\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3690,
+      "length": 11,
+      "value": "\"sleep_rem\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3733,
+      "length": 12,
+      "value": "\"sleep_deep\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Profile.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 7,
+      "value": "\"WeFitterLib.Profile\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/ApiOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 147,
+      "length": 12,
+      "value": "\"WeFitterLib.ApiOperation\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 20,
+      "value": "\"heart-rate-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 20,
+      "value": "\"step-count-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 26,
+      "value": "\"distance-cycling-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 761,
+      "length": 27,
+      "value": "\"distance-swimming-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 29,
+      "value": "\"distance-wheelchair-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 34,
+      "value": "\"distance-walking-running-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 39,
+      "value": "\"distance-downhill-snow-sports-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 29,
+      "value": "\"basal-energy-burned-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 30,
+      "value": "\"active-energy-burned-samples\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "kind": "Dictionary",
+      "offset": 10195,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Token.swift",
+      "kind": "BooleanLiteral",
+      "offset": 167,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5048,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5088,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5133,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5177,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5222,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5274,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5315,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6389,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6481,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6587,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6812,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 6890,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7530,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7559,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7587,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7616,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 8436,
+      "length": 33,
+      "value": "\"sleep-episode-with-sleep-stages\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 8520,
+      "length": 4,
+      "value": "\"wf\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 8573,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 8701,
+      "length": 15,
+      "value": "\"sleep-episode\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 8767,
+      "length": 5,
+      "value": "\"omh\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 8821,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 10957,
+      "length": 31,
+      "value": "\"Error querying ECG sample: %@\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 11096,
+      "length": 36,
+      "value": "\"Unknown result querying ECG sample\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 3,
+      "value": "\"%\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 11,
+      "value": "\"beats\/min\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 8,
+      "value": "\"kg\/m^2\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 7,
+      "value": "\"mg\/dL\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 13,
+      "value": "\"mL\/(kg*min)\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 3,
+      "value": "\"%\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 11,
+      "value": "\"beats\/min\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 8,
+      "value": "\"kg\/m^2\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 7,
+      "value": "\"mg\/dL\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 13,
+      "value": "\"mL\/(kg*min)\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 742,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 31,
+      "value": "\"com.wefitter.queue.statistics\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1935,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2135,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2327,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileLogging.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 12,
+      "value": "\"FileServer\""
+    }
+  ]
+}

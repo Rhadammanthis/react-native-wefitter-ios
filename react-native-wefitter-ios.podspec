@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platform     = :ios, "11.3"
-  s.source       = { :git => "https://github.com/ThunderbyteAI/react-native-wefitter-ios.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wefitter/react-native-wefitter-ios.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm}"
 
