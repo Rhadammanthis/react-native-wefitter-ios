@@ -2465,1323 +2465,1400 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 10,
       "value": "\"WeFitter\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 5,
       "value": "\"SDK\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileNameComponents.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileNameComponents.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 5,
       "value": "\"---\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 17,
       "value": "\"WeFitter\/Upload\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 21,
       "value": "\"WeFitter\/UploadBulk\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 17,
       "value": "\"WeFitter\/Upload\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 21,
       "value": "\"WeFitter\/UploadBulk\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 378,
       "length": 37,
       "value": "\"com.wefitter.queue.fileserver.write\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/Date.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/Date.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 5,
       "value": "\"GMT\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "StringLiteral",
       "offset": 3167,
       "length": 14,
       "value": "\"WeFitterLib.WeFitterConfig\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "StringLiteral",
       "offset": 4177,
       "length": 27,
       "value": "\"WeFitterCurrentProfileKey\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
       "offset": 13621,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
       "offset": 13647,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
       "offset": 13621,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
       "offset": 13647,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
       "kind": "StringLiteral",
       "offset": 231,
       "length": 9,
       "value": "\"Network\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 10,
       "value": "\"Keychain\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 1895,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 1955,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2013,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2067,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2118,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2164,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2217,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2261,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2323,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2376,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2420,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2555,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2615,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2674,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2729,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2780,
       "length": 5,
       "value": "\"2.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2826,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2879,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2923,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2985,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 3039,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 3083,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 8,
       "value": "\"header\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 20,
       "value": "\"creation_date_time\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 11,
       "value": "\"schema_id\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 11,
       "value": "\"namespace\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 24,
       "value": "\"acquisition_provenance\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 13,
       "value": "\"source_name\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 584,
       "length": 10,
       "value": "\"modality\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 648,
       "length": 22,
       "value": "\"effective_time_frame\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 697,
       "length": 11,
       "value": "\"date_time\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 763,
       "length": 15,
       "value": "\"time_interval\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 814,
       "length": 17,
       "value": "\"start_date_time\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 15,
       "value": "\"end_date_time\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 932,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 964,
       "length": 5,
       "value": "\"key\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 993,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1037,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 15,
       "value": "\"activity_name\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1116,
       "length": 10,
       "value": "\"distance\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1162,
       "length": 21,
       "value": "\"resting_kcal_burned\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1220,
       "length": 20,
       "value": "\"active_kcal_burned\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1276,
       "length": 13,
       "value": "\"kcal_burned\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1316,
       "length": 10,
       "value": "\"duration\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1354,
       "length": 12,
       "value": "\"step_count\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1389,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1451,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1485,
       "length": 6,
       "value": "\"unit\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1533,
       "length": 15,
       "value": "\"category_type\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1580,
       "length": 16,
       "value": "\"category_value\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1635,
       "length": 23,
       "value": "\"descriptive_statistic\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1690,
       "length": 17,
       "value": "\"heart_rate_data\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1735,
       "length": 12,
       "value": "\"heart_rate\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1805,
       "length": 18,
       "value": "\"sample_frequency\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1857,
       "length": 14,
       "value": "\"sample_count\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1898,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1931,
       "length": 6,
       "value": "\"time\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1965,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2169,
       "length": 5,
       "value": "\"avg\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2200,
       "length": 5,
       "value": "\"min\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2231,
       "length": 5,
       "value": "\"max\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2321,
       "length": 15,
       "value": "\"blood_glucose\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2375,
       "length": 14,
       "value": "\"diastolic_bp\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2427,
       "length": 13,
       "value": "\"systolic_bp\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2474,
       "length": 21,
       "value": "\"body_fat_percentage\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2525,
       "length": 17,
       "value": "\"body_mass_index\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2567,
       "length": 13,
       "value": "\"body_weight\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2612,
       "length": 18,
       "value": "\"body_temperature\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2653,
       "length": 13,
       "value": "\"body_height\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 19,
       "value": "\"oxygen_saturation\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2741,
       "length": 9,
       "value": "\"vo2_max\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2321,
       "length": 15,
       "value": "\"blood_glucose\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2375,
       "length": 14,
       "value": "\"diastolic_bp\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2427,
       "length": 13,
       "value": "\"systolic_bp\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2474,
       "length": 21,
       "value": "\"body_fat_percentage\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2525,
       "length": 17,
       "value": "\"body_mass_index\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2567,
       "length": 13,
       "value": "\"body_weight\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2612,
       "length": 18,
       "value": "\"body_temperature\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2653,
       "length": 13,
       "value": "\"body_height\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 19,
       "value": "\"oxygen_saturation\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2741,
       "length": 9,
       "value": "\"vo2_max\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2924,
       "length": 15,
       "value": "\"blood-glucose\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2978,
       "length": 29,
       "value": "\"wf-diastolic-blood-pressure\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3045,
       "length": 28,
       "value": "\"wf-systolic-blood-pressure\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3107,
       "length": 21,
       "value": "\"body-fat-percentage\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3158,
       "length": 17,
       "value": "\"body-mass-index\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3200,
       "length": 13,
       "value": "\"body-weight\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3245,
       "length": 18,
       "value": "\"body-temperature\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3286,
       "length": 13,
       "value": "\"body-height\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3332,
       "length": 19,
       "value": "\"oxygen-saturation\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3374,
       "length": 9,
       "value": "\"vo2-max\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3403,
       "length": 24,
       "value": "\"heart-rate-variability\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2924,
       "length": 15,
       "value": "\"blood-glucose\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2978,
       "length": 29,
       "value": "\"wf-diastolic-blood-pressure\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3045,
       "length": 28,
       "value": "\"wf-systolic-blood-pressure\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3107,
       "length": 21,
       "value": "\"body-fat-percentage\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3158,
       "length": 17,
       "value": "\"body-mass-index\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3200,
       "length": 13,
       "value": "\"body-weight\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3245,
       "length": 18,
       "value": "\"body-temperature\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3286,
       "length": 13,
       "value": "\"body-height\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3332,
       "length": 19,
       "value": "\"oxygen-saturation\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3374,
       "length": 9,
       "value": "\"vo2-max\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3403,
       "length": 24,
       "value": "\"heart-rate-variability\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3492,
       "length": 18,
       "value": "\"total_sleep_time\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3548,
       "length": 19,
       "value": "\"sleep_stages_data\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3600,
       "length": 13,
       "value": "\"sleep_awake\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3646,
       "length": 13,
       "value": "\"sleep_light\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3690,
       "length": 11,
       "value": "\"sleep_rem\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3733,
       "length": 12,
       "value": "\"sleep_deep\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Profile.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Profile.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 7,
       "value": "\"WeFitterLib.Profile\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/ApiOperation.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/ApiOperation.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 12,
       "value": "\"WeFitterLib.ApiOperation\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 601,
       "length": 20,
       "value": "\"heart-rate-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 648,
       "length": 20,
       "value": "\"step-count-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 701,
       "length": 26,
       "value": "\"distance-cycling-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 761,
       "length": 27,
       "value": "\"distance-swimming-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 29,
       "value": "\"distance-wheelchair-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 893,
       "length": 34,
       "value": "\"distance-walking-running-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 39,
       "value": "\"distance-downhill-snow-sports-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 1045,
       "length": 29,
       "value": "\"basal-energy-burned-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 1110,
       "length": 30,
       "value": "\"active-energy-burned-samples\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "Dictionary",
       "offset": 10195,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Token.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Token.swift",
       "kind": "BooleanLiteral",
       "offset": 167,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5048,
-      "length": 1,
-      "value": "0"
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "Array",
+      "offset": 811,
+      "length": 2,
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 5088,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 5133,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 5177,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 5222,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 5274,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 5315,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6207,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6299,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6389,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6481,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6587,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6812,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 6890,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 7530,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 7559,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 7587,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
-      "kind": "FloatLiteral",
-      "offset": 7616,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8436,
+      "offset": 3092,
+      "length": 10,
+      "value": "\"workout-\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "Array",
+      "offset": 3803,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5240,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5285,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5329,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5374,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5426,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 5467,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6359,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6451,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6541,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6633,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6964,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7042,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7682,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7711,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7739,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "FloatLiteral",
+      "offset": 7768,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 8588,
       "length": 33,
       "value": "\"sleep-episode-with-sleep-stages\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8520,
+      "offset": 8672,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8573,
+      "offset": 8725,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8701,
+      "offset": 8853,
       "length": 15,
       "value": "\"sleep-episode\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8767,
+      "offset": 8919,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8821,
+      "offset": 8973,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 10957,
+      "offset": 9380,
+      "length": 8,
+      "value": "\"sleep-\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "Array",
+      "offset": 9920,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 10063,
+      "length": 10,
+      "value": "\"mindful-\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "Array",
+      "offset": 10699,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 11347,
       "length": 31,
       "value": "\"Error querying ECG sample: %@\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 11096,
+      "offset": 11486,
       "length": 36,
       "value": "\"Unknown result querying ECG sample\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 11747,
+      "length": 6,
+      "value": "\"ecg-\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "Array",
+      "offset": 12301,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 12519,
+      "length": 7,
+      "value": "\"body-\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 3,
       "value": "\"%\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 11,
       "value": "\"beats\/min\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 379,
       "length": 8,
       "value": "\"kg\/m^2\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 7,
       "value": "\"mg\/dL\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 448,
       "length": 13,
       "value": "\"mL\/(kg*min)\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 3,
       "value": "\"%\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 11,
       "value": "\"beats\/min\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 379,
       "length": 8,
       "value": "\"kg\/m^2\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 7,
       "value": "\"mg\/dL\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 448,
       "length": 13,
       "value": "\"mL\/(kg*min)\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/URLRequestInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3739,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
       "kind": "BooleanLiteral",
       "offset": 264,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
       "kind": "BooleanLiteral",
       "offset": 742,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 184,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1175,
       "length": 31,
       "value": "\"com.wefitter.queue.statistics\""
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1935,
+      "offset": 2031,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2135,
+      "offset": 2231,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2327,
+      "offset": 2468,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jenkins\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileLogging.swift",
       "kind": "StringLiteral",
       "offset": 225,
       "length": 12,
