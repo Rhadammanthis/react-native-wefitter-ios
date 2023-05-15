@@ -748,13 +748,1331 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "WeFitterHealthKitDataType",
+        "printedName": "WeFitterHealthKitDataType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "activeEnergyBurned",
+            "printedName": "activeEnergyBurned",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeActiveEnergyBurned",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO18activeEnergyBurnedyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "basalEnergyBurned",
+            "printedName": "basalEnergyBurned",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeBasalEnergyBurned",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO17basalEnergyBurnedyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "bloodGlucose",
+            "printedName": "bloodGlucose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeBloodGlucose",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO12bloodGlucoseyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "bloodPressureDiastolic",
+            "printedName": "bloodPressureDiastolic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeBloodPressureDiastolic",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO22bloodPressureDiastolicyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "bloodPressureSystolic",
+            "printedName": "bloodPressureSystolic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeBloodPressureSystolic",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO21bloodPressureSystolicyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "bodyFatPercentage",
+            "printedName": "bodyFatPercentage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeBodyFatPercentage",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO17bodyFatPercentageyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "bodyMass",
+            "printedName": "bodyMass",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeBodyMass",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO8bodyMassyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "bodyMassIndex",
+            "printedName": "bodyMassIndex",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeBodyMassIndex",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO13bodyMassIndexyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "bodyTemperature",
+            "printedName": "bodyTemperature",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeBodyTemperature",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO15bodyTemperatureyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "distanceCycling",
+            "printedName": "distanceCycling",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeDistanceCycling",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO15distanceCyclingyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "distanceDownhillSnowSports",
+            "printedName": "distanceDownhillSnowSports",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeDistanceDownhillSnowSports",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO26distanceDownhillSnowSportsyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "distanceSwimming",
+            "printedName": "distanceSwimming",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeDistanceSwimming",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO16distanceSwimmingyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "distanceWalkingRunning",
+            "printedName": "distanceWalkingRunning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeDistanceWalkingRunning",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO22distanceWalkingRunningyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Var",
+            "name": "distanceWheelchair",
+            "printedName": "distanceWheelchair",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeDistanceWheelchair",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO18distanceWheelchairyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
+          },
+          {
+            "kind": "Var",
+            "name": "electrocardiogram",
+            "printedName": "electrocardiogram",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeElectrocardiogram",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO17electrocardiogramyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 14
+          },
+          {
+            "kind": "Var",
+            "name": "heartRate",
+            "printedName": "heartRate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeHeartRate",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO9heartRateyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 15
+          },
+          {
+            "kind": "Var",
+            "name": "heartRateVariabilitySDNN",
+            "printedName": "heartRateVariabilitySDNN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeHeartRateVariabilitySDNN",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO24heartRateVariabilitySDNNyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 16
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeHeight",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO6heightyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 17
+          },
+          {
+            "kind": "Var",
+            "name": "mindfulSession",
+            "printedName": "mindfulSession",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeMindfulSession",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO14mindfulSessionyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 18
+          },
+          {
+            "kind": "Var",
+            "name": "oxygenSaturation",
+            "printedName": "oxygenSaturation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeOxygenSaturation",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO16oxygenSaturationyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 19
+          },
+          {
+            "kind": "Var",
+            "name": "restingHeartRate",
+            "printedName": "restingHeartRate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeRestingHeartRate",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO16restingHeartRateyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 20
+          },
+          {
+            "kind": "Var",
+            "name": "sleepAnalysis",
+            "printedName": "sleepAnalysis",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeSleepAnalysis",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO13sleepAnalysisyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 21
+          },
+          {
+            "kind": "Var",
+            "name": "stepCount",
+            "printedName": "stepCount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeStepCount",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO9stepCountyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 22
+          },
+          {
+            "kind": "Var",
+            "name": "vo2Max",
+            "printedName": "vo2Max",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeVo2Max",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO6vo2MaxyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 23
+          },
+          {
+            "kind": "Var",
+            "name": "workout",
+            "printedName": "workout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeFitterLib.WeFitterHealthKitDataType.Type) -> WeFitterLib.WeFitterHealthKitDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType@WeFitterHealthKitDataTypeWorkout",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO7workoutyA2CmF",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 24
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WeFitterLib.WeFitterHealthKitDataType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11WeFitterLib0aB17HealthKitDataTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "WeFitterLib",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WeFitterLib0aB17HealthKitDataTypeO8rawValueSivp",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO8rawValueSivp",
+            "moduleName": "WeFitterLib",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WeFitterLib0aB17HealthKitDataTypeO8rawValueSivg",
+                "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO8rawValueSivg",
+                "moduleName": "WeFitterLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WeFitterLib.WeFitterHealthKitDataType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeFitterHealthKitDataType",
+                    "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                    "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WeFitterLib0aB17HealthKitDataTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO8allCasesSayACGvpZ",
+            "moduleName": "WeFitterLib",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WeFitterLib.WeFitterHealthKitDataType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WeFitterLib0aB17HealthKitDataTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO8allCasesSayACGvgZ",
+                "moduleName": "WeFitterLib",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType",
+        "mangledName": "$s11WeFitterLib0aB17HealthKitDataTypeO",
+        "moduleName": "WeFitterLib",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WeFitterLib.WeFitterHealthKitDataType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "WeFitterConfig",
         "printedName": "WeFitterConfig",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:url:startDate:)",
+            "printedName": "init(token:url:startDate:enabledDataTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[WeFitterLib.WeFitterHealthKitDataType]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WeFitterLib.WeFitterHealthKitDataType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WeFitterHealthKitDataType",
+                        "printedName": "WeFitterLib.WeFitterHealthKitDataType",
+                        "usr": "c:@M@WeFitterLib@E@WeFitterHealthKitDataType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypesACSS_SSSg10Foundation0H0VSgSayAA0ab9HealthKitJ4TypeOGSgtcfc",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypesACSS_SSSg10Foundation0H0VSgSayAA0ab9HealthKitJ4TypeOGSgtcfc",
+            "moduleName": "WeFitterLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:url:startDate:enabledDataTypes:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -795,18 +2113,41 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:startDate:",
-            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDateACSS_SSSg10Foundation0H0VSgtcfc",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:startDate:enabledDataTypes:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypesACSS_SSSg10Foundation0H0VSgSaySiGSgtcfc",
             "moduleName": "WeFitterLib",
-            "objc_name": "initWithToken:url:startDate:",
+            "objc_name": "initWithToken:url:startDate:enabledDataTypes:",
             "declAttributes": [
+              "Convenience",
               "AccessControl",
               "ObjC"
             ],
-            "init_kind": "Designated"
+            "init_kind": "Convenience"
           },
           {
             "kind": "Constructor",
@@ -919,6 +2260,248 @@
             "mangledName": "$s11WeFitterLib0aB6ConfigC5token9startDateACSS_10Foundation0G0VSgtcfc",
             "moduleName": "WeFitterLib",
             "objc_name": "initWithToken:startDate:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:url:startDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:startDate:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDateACSS_SSSg10Foundation0H0VSgtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:url:startDate:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:url:enabledDataTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:enabledDataTypes:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url16enabledDataTypesACSS_SSSgSaySiGSgtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:url:enabledDataTypes:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:startDate:enabledDataTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:startDate:enabledDataTypes:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token9startDate16enabledDataTypesACSS_10Foundation0G0VSgSaySiGSgtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:startDate:enabledDataTypes:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:enabledDataTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:enabledDataTypes:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token16enabledDataTypesACSS_SaySiGSgtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:enabledDataTypes:",
             "declAttributes": [
               "Convenience",
               "AccessControl",
@@ -2465,1400 +4048,1743 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 10,
       "value": "\"WeFitter\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/BaseLogging.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 5,
       "value": "\"SDK\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileNameComponents.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileNameComponents.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 5,
       "value": "\"---\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 17,
       "value": "\"WeFitter\/Upload\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 21,
       "value": "\"WeFitter\/UploadBulk\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 17,
       "value": "\"WeFitter\/Upload\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 21,
       "value": "\"WeFitter\/UploadBulk\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
       "offset": 378,
       "length": 37,
       "value": "\"com.wefitter.queue.fileserver.write\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/Date.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/Date.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 5,
       "value": "\"GMT\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2751,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2778,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2800,
+      "length": 22,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2832,
+      "length": 21,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2863,
+      "length": 17,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2890,
+      "length": 8,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2908,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2931,
+      "length": 15,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2956,
+      "length": 15,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2981,
+      "length": 26,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3017,
+      "length": 16,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3043,
+      "length": 22,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3075,
+      "length": 18,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3103,
+      "length": 17,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3130,
+      "length": 9,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3149,
+      "length": 24,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3183,
+      "length": 6,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3199,
+      "length": 14,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3223,
+      "length": 16,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3249,
+      "length": 16,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3275,
+      "length": 13,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3298,
+      "length": 9,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3317,
+      "length": 6,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3333,
+      "length": 7,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2751,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2778,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2800,
+      "length": 22,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2832,
+      "length": 21,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2863,
+      "length": 17,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2890,
+      "length": 8,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2908,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2931,
+      "length": 15,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2956,
+      "length": 15,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2981,
+      "length": 26,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3017,
+      "length": 16,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3043,
+      "length": 22,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3075,
+      "length": 18,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3103,
+      "length": 17,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3130,
+      "length": 9,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3149,
+      "length": 24,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3183,
+      "length": 6,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3199,
+      "length": 14,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3223,
+      "length": 16,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3249,
+      "length": 16,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3275,
+      "length": 13,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3298,
+      "length": 9,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3317,
+      "length": 6,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3333,
+      "length": 7,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "StringLiteral",
-      "offset": 3167,
+      "offset": 6520,
       "length": 14,
       "value": "\"WeFitterLib.WeFitterConfig\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "Array",
+      "offset": 8910,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "StringLiteral",
-      "offset": 4177,
+      "offset": 9022,
       "length": 27,
       "value": "\"WeFitterCurrentProfileKey\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13621,
+      "offset": 18647,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13647,
+      "offset": 18673,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13621,
+      "offset": 18647,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13647,
+      "offset": 18673,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
       "kind": "StringLiteral",
       "offset": 231,
       "length": 9,
       "value": "\"Network\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/NetworkLogging.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 10,
       "value": "\"Keychain\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 1895,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 1955,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2013,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2067,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2118,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2164,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2217,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2261,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2323,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2376,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2420,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2555,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2615,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2674,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2729,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2780,
       "length": 5,
       "value": "\"2.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2826,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2879,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2923,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 2985,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 3039,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/Extensions\/HKQuantitySample.swift",
       "kind": "StringLiteral",
       "offset": 3083,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 8,
       "value": "\"header\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 20,
       "value": "\"creation_date_time\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 11,
       "value": "\"schema_id\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 11,
       "value": "\"namespace\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 24,
       "value": "\"acquisition_provenance\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 13,
       "value": "\"source_name\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 584,
       "length": 10,
       "value": "\"modality\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 648,
       "length": 22,
       "value": "\"effective_time_frame\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 697,
       "length": 11,
       "value": "\"date_time\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 763,
       "length": 15,
       "value": "\"time_interval\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 814,
       "length": 17,
       "value": "\"start_date_time\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 15,
       "value": "\"end_date_time\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 932,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 964,
       "length": 5,
       "value": "\"key\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 993,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1037,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 15,
       "value": "\"activity_name\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1116,
       "length": 10,
       "value": "\"distance\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1162,
       "length": 21,
       "value": "\"resting_kcal_burned\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1220,
       "length": 20,
       "value": "\"active_kcal_burned\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1276,
       "length": 13,
       "value": "\"kcal_burned\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1316,
       "length": 10,
       "value": "\"duration\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1354,
       "length": 12,
       "value": "\"step_count\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1389,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1451,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1485,
       "length": 6,
       "value": "\"unit\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1533,
       "length": 15,
       "value": "\"category_type\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1580,
       "length": 16,
       "value": "\"category_value\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1635,
       "length": 23,
       "value": "\"descriptive_statistic\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1690,
       "length": 17,
       "value": "\"heart_rate_data\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1735,
       "length": 12,
       "value": "\"heart_rate\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1805,
       "length": 18,
       "value": "\"sample_frequency\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1857,
       "length": 14,
       "value": "\"sample_count\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1898,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1931,
       "length": 6,
       "value": "\"time\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 1965,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2169,
       "length": 5,
       "value": "\"avg\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2200,
       "length": 5,
       "value": "\"min\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2231,
       "length": 5,
       "value": "\"max\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2321,
       "length": 15,
       "value": "\"blood_glucose\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2375,
       "length": 14,
       "value": "\"diastolic_bp\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2427,
       "length": 13,
       "value": "\"systolic_bp\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2474,
       "length": 21,
       "value": "\"body_fat_percentage\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2525,
       "length": 17,
       "value": "\"body_mass_index\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2567,
       "length": 13,
       "value": "\"body_weight\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2612,
       "length": 18,
       "value": "\"body_temperature\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2653,
       "length": 13,
       "value": "\"body_height\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 19,
       "value": "\"oxygen_saturation\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2741,
       "length": 9,
       "value": "\"vo2_max\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2321,
       "length": 15,
       "value": "\"blood_glucose\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2375,
       "length": 14,
       "value": "\"diastolic_bp\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2427,
       "length": 13,
       "value": "\"systolic_bp\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2474,
       "length": 21,
       "value": "\"body_fat_percentage\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2525,
       "length": 17,
       "value": "\"body_mass_index\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2567,
       "length": 13,
       "value": "\"body_weight\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2612,
       "length": 18,
       "value": "\"body_temperature\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2653,
       "length": 13,
       "value": "\"body_height\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 19,
       "value": "\"oxygen_saturation\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2741,
       "length": 9,
       "value": "\"vo2_max\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2924,
       "length": 15,
       "value": "\"blood-glucose\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2978,
       "length": 29,
       "value": "\"wf-diastolic-blood-pressure\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3045,
       "length": 28,
       "value": "\"wf-systolic-blood-pressure\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3107,
       "length": 21,
       "value": "\"body-fat-percentage\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3158,
       "length": 17,
       "value": "\"body-mass-index\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3200,
       "length": 13,
       "value": "\"body-weight\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3245,
       "length": 18,
       "value": "\"body-temperature\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3286,
       "length": 13,
       "value": "\"body-height\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3332,
       "length": 19,
       "value": "\"oxygen-saturation\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3374,
       "length": 9,
       "value": "\"vo2-max\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3403,
       "length": 24,
       "value": "\"heart-rate-variability\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2924,
       "length": 15,
       "value": "\"blood-glucose\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 2978,
       "length": 29,
       "value": "\"wf-diastolic-blood-pressure\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3045,
       "length": 28,
       "value": "\"wf-systolic-blood-pressure\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3107,
       "length": 21,
       "value": "\"body-fat-percentage\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3158,
       "length": 17,
       "value": "\"body-mass-index\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3200,
       "length": 13,
       "value": "\"body-weight\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3245,
       "length": 18,
       "value": "\"body-temperature\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3286,
       "length": 13,
       "value": "\"body-height\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3332,
       "length": 19,
       "value": "\"oxygen-saturation\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3374,
       "length": 9,
       "value": "\"vo2-max\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3403,
       "length": 24,
       "value": "\"heart-rate-variability\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3492,
       "length": 18,
       "value": "\"total_sleep_time\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3548,
       "length": 19,
       "value": "\"sleep_stages_data\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3600,
       "length": 13,
       "value": "\"sleep_awake\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3646,
       "length": 13,
       "value": "\"sleep_light\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3690,
       "length": 11,
       "value": "\"sleep_rem\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
       "offset": 3733,
       "length": 12,
       "value": "\"sleep_deep\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Profile.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Profile.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 7,
       "value": "\"WeFitterLib.Profile\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/ApiOperation.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/ApiOperation.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 12,
       "value": "\"WeFitterLib.ApiOperation\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 601,
       "length": 20,
       "value": "\"heart-rate-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 648,
       "length": 20,
       "value": "\"step-count-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 701,
       "length": 26,
       "value": "\"distance-cycling-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 761,
       "length": 27,
       "value": "\"distance-swimming-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 29,
       "value": "\"distance-wheelchair-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 893,
       "length": 34,
       "value": "\"distance-walking-running-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 39,
       "value": "\"distance-downhill-snow-sports-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 1045,
       "length": 29,
       "value": "\"basal-energy-burned-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 1110,
       "length": 30,
       "value": "\"active-energy-burned-samples\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "Dictionary",
       "offset": 10195,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Token.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Token.swift",
       "kind": "BooleanLiteral",
       "offset": 167,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
       "offset": 811,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 3092,
       "length": 10,
       "value": "\"workout-\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
       "offset": 3803,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
       "offset": 5200,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 5240,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 5285,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 5329,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 5374,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 5426,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 5467,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
       "offset": 6359,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
       "offset": 6451,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
       "offset": 6541,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
       "offset": 6633,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
       "offset": 6739,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
       "offset": 6964,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 7042,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 7682,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 7711,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 7739,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
       "offset": 7768,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 8588,
       "length": 33,
       "value": "\"sleep-episode-with-sleep-stages\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 8672,
       "length": 4,
       "value": "\"wf\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 8725,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 8853,
       "length": 15,
       "value": "\"sleep-episode\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 8919,
       "length": 5,
       "value": "\"omh\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 8973,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 9380,
       "length": 8,
       "value": "\"sleep-\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
       "offset": 9920,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 10063,
       "length": 10,
       "value": "\"mindful-\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
       "offset": 10699,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 11347,
       "length": 31,
       "value": "\"Error querying ECG sample: %@\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 11486,
       "length": 36,
       "value": "\"Unknown result querying ECG sample\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 11747,
       "length": 6,
       "value": "\"ecg-\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
       "offset": 12301,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
       "offset": 12519,
       "length": 7,
       "value": "\"body-\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 3,
       "value": "\"%\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 11,
       "value": "\"beats\/min\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 379,
       "length": 8,
       "value": "\"kg\/m^2\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 7,
       "value": "\"mg\/dL\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 448,
       "length": 13,
       "value": "\"mL\/(kg*min)\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 3,
       "value": "\"%\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 11,
       "value": "\"beats\/min\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 379,
       "length": 8,
       "value": "\"kg\/m^2\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 7,
       "value": "\"mg\/dL\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/MeasurementsAndUnits.swift",
       "kind": "StringLiteral",
       "offset": 448,
       "length": 13,
       "value": "\"mL\/(kg*min)\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/URLRequestInfo.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/URLRequestInfo.swift",
       "kind": "StringLiteral",
       "offset": 3739,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
       "kind": "BooleanLiteral",
       "offset": 264,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Operations\/BaseOperation.swift",
       "kind": "BooleanLiteral",
       "offset": 742,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 184,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "StringLiteral",
       "offset": 1175,
       "length": 31,
       "value": "\"com.wefitter.queue.statistics\""
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 2031,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 2231,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
       "offset": 2468,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileLogging.swift",
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileLogging.swift",
       "kind": "StringLiteral",
       "offset": 225,
       "length": 12,

@@ -49,6 +49,7 @@ export default function App() {
         token: 'YOUR_TOKEN', // required, WeFitter API profile bearer token
         url: 'CUSTOM_URL', // optional, the url should be base without `v1.3/ingest/` as the library will append this. Default: `https://api.wefitter.com/api/`
         startDate: 'CUSTOM_START_DATE', // optional with format `yyyy-MM-dd`, by default data of the past 20 days will be uploaded
+        enabledDataTypes: ['CUSTOM_DATA_TYPES'], // optional array of datatypes to customize requested permissions. Default: all
       };
 
       // Configure should be called every time your app starts when HealthKit is supported

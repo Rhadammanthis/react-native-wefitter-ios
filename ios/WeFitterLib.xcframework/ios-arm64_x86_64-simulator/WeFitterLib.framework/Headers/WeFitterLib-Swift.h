@@ -230,6 +230,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -296,13 +297,45 @@ typedef SWIFT_ENUM_NAMED(NSInteger, Status, "_Status", open) {
 
 SWIFT_CLASS("_TtC11WeFitterLib14WeFitterConfig")
 @interface WeFitterConfig : NSObject
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+typedef SWIFT_ENUM(NSInteger, WeFitterHealthKitDataType, open) {
+  WeFitterHealthKitDataTypeActiveEnergyBurned = 0,
+  WeFitterHealthKitDataTypeBasalEnergyBurned = 1,
+  WeFitterHealthKitDataTypeBloodGlucose = 2,
+  WeFitterHealthKitDataTypeBloodPressureDiastolic = 3,
+  WeFitterHealthKitDataTypeBloodPressureSystolic = 4,
+  WeFitterHealthKitDataTypeBodyFatPercentage = 5,
+  WeFitterHealthKitDataTypeBodyMass = 6,
+  WeFitterHealthKitDataTypeBodyMassIndex = 7,
+  WeFitterHealthKitDataTypeBodyTemperature = 8,
+  WeFitterHealthKitDataTypeDistanceCycling = 9,
+  WeFitterHealthKitDataTypeDistanceDownhillSnowSports = 10,
+  WeFitterHealthKitDataTypeDistanceSwimming = 11,
+  WeFitterHealthKitDataTypeDistanceWalkingRunning = 12,
+  WeFitterHealthKitDataTypeDistanceWheelchair = 13,
+  WeFitterHealthKitDataTypeElectrocardiogram = 14,
+  WeFitterHealthKitDataTypeHeartRate = 15,
+  WeFitterHealthKitDataTypeHeartRateVariabilitySDNN = 16,
+  WeFitterHealthKitDataTypeHeight = 17,
+  WeFitterHealthKitDataTypeMindfulSession = 18,
+  WeFitterHealthKitDataTypeOxygenSaturation = 19,
+  WeFitterHealthKitDataTypeRestingHeartRate = 20,
+  WeFitterHealthKitDataTypeSleepAnalysis = 21,
+  WeFitterHealthKitDataTypeStepCount = 22,
+  WeFitterHealthKitDataTypeVo2Max = 23,
+  WeFitterHealthKitDataTypeWorkout = 24,
+};
 
 #endif
 #if defined(__cplusplus)
@@ -544,6 +577,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -610,13 +644,45 @@ typedef SWIFT_ENUM_NAMED(NSInteger, Status, "_Status", open) {
 
 SWIFT_CLASS("_TtC11WeFitterLib14WeFitterConfig")
 @interface WeFitterConfig : NSObject
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+typedef SWIFT_ENUM(NSInteger, WeFitterHealthKitDataType, open) {
+  WeFitterHealthKitDataTypeActiveEnergyBurned = 0,
+  WeFitterHealthKitDataTypeBasalEnergyBurned = 1,
+  WeFitterHealthKitDataTypeBloodGlucose = 2,
+  WeFitterHealthKitDataTypeBloodPressureDiastolic = 3,
+  WeFitterHealthKitDataTypeBloodPressureSystolic = 4,
+  WeFitterHealthKitDataTypeBodyFatPercentage = 5,
+  WeFitterHealthKitDataTypeBodyMass = 6,
+  WeFitterHealthKitDataTypeBodyMassIndex = 7,
+  WeFitterHealthKitDataTypeBodyTemperature = 8,
+  WeFitterHealthKitDataTypeDistanceCycling = 9,
+  WeFitterHealthKitDataTypeDistanceDownhillSnowSports = 10,
+  WeFitterHealthKitDataTypeDistanceSwimming = 11,
+  WeFitterHealthKitDataTypeDistanceWalkingRunning = 12,
+  WeFitterHealthKitDataTypeDistanceWheelchair = 13,
+  WeFitterHealthKitDataTypeElectrocardiogram = 14,
+  WeFitterHealthKitDataTypeHeartRate = 15,
+  WeFitterHealthKitDataTypeHeartRateVariabilitySDNN = 16,
+  WeFitterHealthKitDataTypeHeight = 17,
+  WeFitterHealthKitDataTypeMindfulSession = 18,
+  WeFitterHealthKitDataTypeOxygenSaturation = 19,
+  WeFitterHealthKitDataTypeRestingHeartRate = 20,
+  WeFitterHealthKitDataTypeSleepAnalysis = 21,
+  WeFitterHealthKitDataTypeStepCount = 22,
+  WeFitterHealthKitDataTypeVo2Max = 23,
+  WeFitterHealthKitDataTypeWorkout = 24,
+};
 
 #endif
 #if defined(__cplusplus)
