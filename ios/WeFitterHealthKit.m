@@ -24,6 +24,7 @@ RCT_EXPORT_METHOD(configure : (NSDictionary*)config resolver : (RCTPromiseResolv
     NSString* token = config[@"token"];
     NSString* url = config[@"url"];
     NSString* startDateString = config[@"startDate"];
+    NSArray* enabledDataTypes = config[@"enabledDataTypes"];
 
     // convert NString to NSDate
     NSDate* startDate = nil;
@@ -33,7 +34,7 @@ RCT_EXPORT_METHOD(configure : (NSDictionary*)config resolver : (RCTPromiseResolv
         startDate = [dateFormatter dateFromString:startDateString];
     }
 
-    WeFitterConfig* wefitterConfig = [[WeFitterConfig alloc] initWithToken:token url:url startDate:startDate];
+    WeFitterConfig* wefitterConfig = [[WeFitterConfig alloc] initWithToken:token url:url startDate:startDate enabledDataTypes:enabledDataTypes];
 
     [WeFitter configure:wefitterConfig
              completion:^(BOOL success, NSError* error) {

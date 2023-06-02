@@ -28,12 +28,53 @@ extension WeFitterLib.WeFitterHealthKitError : Foundation.LocalizedError {
     get
   }
 }
+@objc public enum WeFitterHealthKitDataType : Swift.Int, Swift.CaseIterable {
+  case activeEnergyBurned
+  case basalEnergyBurned
+  case bloodGlucose
+  case bloodPressureDiastolic
+  case bloodPressureSystolic
+  case bodyFatPercentage
+  case bodyMass
+  case bodyMassIndex
+  case bodyTemperature
+  case distanceCycling
+  case distanceDownhillSnowSports
+  case distanceSwimming
+  case distanceWalkingRunning
+  case distanceWheelchair
+  case electrocardiogram
+  case heartRate
+  case heartRateVariabilitySDNN
+  case height
+  case mindfulSession
+  case oxygenSaturation
+  case restingHeartRate
+  case sleepAnalysis
+  case stepCount
+  case vo2Max
+  case workout
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [WeFitterLib.WeFitterHealthKitDataType]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [WeFitterLib.WeFitterHealthKitDataType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public typealias BridgeCompletionHandler = (Swift.Bool, WeFitterLib.WeFitterHealthKitError?) -> Swift.Void
 @objc public class WeFitterConfig : ObjectiveC.NSObject {
-  @objc public init(token: Swift.String, url: Swift.String?, startDate: Foundation.Date?)
+  public init(token: Swift.String, url: Swift.String? = nil, startDate: Foundation.Date? = nil, enabledDataTypes: [WeFitterLib.WeFitterHealthKitDataType]? = nil)
+  @objc convenience public init(token: Swift.String, url: Swift.String?, startDate: Foundation.Date?, enabledDataTypes: [Swift.Int]?)
   @objc convenience public init(token: Swift.String)
   @objc convenience public init(token: Swift.String, url: Swift.String?)
   @objc convenience public init(token: Swift.String, startDate: Foundation.Date?)
+  @objc convenience public init(token: Swift.String, url: Swift.String?, startDate: Foundation.Date?)
+  @objc convenience public init(token: Swift.String, url: Swift.String?, enabledDataTypes: [Swift.Int]?)
+  @objc convenience public init(token: Swift.String, startDate: Foundation.Date?, enabledDataTypes: [Swift.Int]?)
+  @objc convenience public init(token: Swift.String, enabledDataTypes: [Swift.Int]?)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class WeFitter : ObjectiveC.NSObject {
@@ -72,6 +113,9 @@ public typealias BridgeCompletionHandler = (Swift.Bool, WeFitterLib.WeFitterHeal
   }
   @objc deinit
 }
+extension WeFitterLib.WeFitterHealthKitDataType : Swift.Equatable {}
+extension WeFitterLib.WeFitterHealthKitDataType : Swift.Hashable {}
+extension WeFitterLib.WeFitterHealthKitDataType : Swift.RawRepresentable {}
 extension WeFitterLib.WeFitter._Status : Swift.Equatable {}
 extension WeFitterLib.WeFitter._Status : Swift.Hashable {}
 extension WeFitterLib.WeFitter._Status : Swift.RawRepresentable {}

@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.5.1
+
+Added `enabledDataTypes` to `config` to control which permissions should be requested
+
+## 1.4.1
+
+Reduced amount of ingest calls
+
+Added "Version" header to ingest call
+
 ## 1.4.0
 
 Added sleep stages on iOS 16+
