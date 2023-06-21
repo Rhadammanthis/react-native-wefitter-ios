@@ -5254,44 +5254,86 @@
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3492,
+      "offset": 3517,
       "length": 18,
       "value": "\"total_sleep_time\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3548,
+      "offset": 3573,
       "length": 19,
       "value": "\"sleep_stages_data\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3600,
+      "offset": 3625,
       "length": 13,
       "value": "\"sleep_awake\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3646,
+      "offset": 3671,
       "length": 13,
       "value": "\"sleep_light\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3690,
+      "offset": 3715,
       "length": 11,
       "value": "\"sleep_rem\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3733,
+      "offset": 3758,
       "length": 12,
       "value": "\"sleep_deep\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3833,
+      "length": 19,
+      "value": "\"sleep_stage_state\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3880,
+      "length": 7,
+      "value": "\"awake\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3915,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3949,
+      "length": 6,
+      "value": "\"deep\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3981,
+      "length": 5,
+      "value": "\"rem\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/OpenMHealth\/OpenMHealthKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4016,
+      "length": 9,
+      "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/Profile.swift",
@@ -5401,238 +5443,259 @@
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
-      "offset": 3803,
+      "offset": 3953,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 5200,
+      "offset": 5350,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5240,
+      "offset": 5390,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5285,
+      "offset": 5435,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5329,
+      "offset": 5479,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5374,
+      "offset": 5524,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5426,
+      "offset": 5576,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5467,
+      "offset": 5617,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6359,
+      "offset": 6509,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6451,
+      "offset": 6601,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6541,
+      "offset": 6691,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6633,
+      "offset": 6783,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6739,
+      "offset": 6889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6964,
+      "offset": 7114,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7042,
+      "offset": 7192,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7682,
+      "offset": 7832,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7711,
+      "offset": 7861,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7739,
+      "offset": 7889,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7768,
+      "offset": 7918,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8588,
+      "offset": 8738,
       "length": 33,
       "value": "\"sleep-episode-with-sleep-stages\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8672,
+      "offset": 8822,
       "length": 4,
       "value": "\"wf\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8725,
+      "offset": 8875,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8853,
+      "offset": 9003,
       "length": 15,
       "value": "\"sleep-episode\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8919,
+      "offset": 9069,
       "length": 5,
       "value": "\"omh\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8973,
+      "offset": 9123,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 9380,
+      "offset": 11068,
+      "length": 17,
+      "value": "\"wf-sleep-detail\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 11124,
+      "length": 4,
+      "value": "\"wf\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 11165,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 11374,
       "length": 8,
       "value": "\"sleep-\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
-      "offset": 9920,
+      "offset": 11914,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 10063,
+      "offset": 12057,
       "length": 10,
       "value": "\"mindful-\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
-      "offset": 10699,
+      "offset": 12693,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 11347,
+      "offset": 13341,
       "length": 31,
       "value": "\"Error querying ECG sample: %@\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 11486,
+      "offset": 13480,
       "length": 36,
       "value": "\"Unknown result querying ECG sample\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 11747,
+      "offset": 13741,
       "length": 6,
       "value": "\"ecg-\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
-      "offset": 12301,
+      "offset": 14295,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 12519,
+      "offset": 14513,
       "length": 7,
       "value": "\"body-\""
     },

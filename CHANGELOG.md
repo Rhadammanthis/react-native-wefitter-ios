@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.2
+
+Added sleep detail
+
 ## 1.5.1
 
 Added `enabledDataTypes` to `config` to control which permissions should be requested
