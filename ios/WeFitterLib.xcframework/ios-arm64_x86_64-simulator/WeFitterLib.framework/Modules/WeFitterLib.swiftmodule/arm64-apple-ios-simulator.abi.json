@@ -5786,7 +5786,7 @@
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/URLRequestInfo.swift",
       "kind": "StringLiteral",
-      "offset": 3739,
+      "offset": 3751,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },

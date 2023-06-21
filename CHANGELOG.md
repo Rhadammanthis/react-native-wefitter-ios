@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.3
+
+Fixed "Version" header
+
 ## 1.5.2
 
 Added sleep detail
