@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.4
+
+Fixed a bug where samples were uploaded from before the start date
+
 ## 1.5.3
 
 Fixed "Version" header
