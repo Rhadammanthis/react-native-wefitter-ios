@@ -297,14 +297,23 @@ typedef SWIFT_ENUM_NAMED(NSInteger, Status, "_Status", open) {
 
 SWIFT_CLASS("_TtC11WeFitterLib14WeFitterConfig")
 @interface WeFitterConfig : NSObject
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes enableDailyDetail:(BOOL)enableDailyDetail enableHeartRateSamples:(BOOL)enableHeartRateSamples;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enableDailyDetail:(BOOL)enableDailyDetail;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enableHeartRateSamples:(BOOL)enableHeartRateSamples;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url startDate:(NSDate * _Nullable)startDate;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url enableDailyDetail:(BOOL)enableDailyDetail;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token url:(NSString * _Nullable)url enableHeartRateSamples:(BOOL)enableHeartRateSamples;
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate enableDailyDetail:(BOOL)enableDailyDetail;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token startDate:(NSDate * _Nullable)startDate enableHeartRateSamples:(BOOL)enableHeartRateSamples;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes enableDailyDetail:(BOOL)enableDailyDetail;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enabledDataTypes:(NSArray<NSNumber *> * _Nullable)enabledDataTypes enableHeartRateSamples:(BOOL)enableHeartRateSamples;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token enableDailyDetail:(BOOL)enableDailyDetail enableHeartRateSamples:(BOOL)enableHeartRateSamples;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

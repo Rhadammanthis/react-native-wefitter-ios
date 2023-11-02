@@ -34,6 +34,8 @@ type WeFitterHealthKitType = {
     url?: string;
     startDate?: string;
     enabledDataTypes?: WeFitterHealthKitDataType[];
+    enableDailyDetail?: boolean;
+    enableHeartRateSamples?: boolean;
   }): Promise<void>;
   connect(): Promise<void>;
   disconnect(): void;

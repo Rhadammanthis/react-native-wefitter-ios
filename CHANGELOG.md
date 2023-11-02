@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.0.0
+
+Improved check that determines if there is new data that should be uploaded
+
+Prevent fetch queries for the same datatype to run multiple times at the same time
+
+Replace upload query in the queue when a new upload query is available
+
+Changed default start date from 20 to 7 days back to improve performance
+
+Added `enableDailyDetail` and `enableHeartRateSamples` to `config`. These datatypes contain a lot of data. Especially if too much historic data is requested. This results in queries that run for a long time and can slow down syncing of data. Daily summaries are not affected by this setting.
+
 ## 1.5.4
 
 Fixed a bug where samples were uploaded from before the start date

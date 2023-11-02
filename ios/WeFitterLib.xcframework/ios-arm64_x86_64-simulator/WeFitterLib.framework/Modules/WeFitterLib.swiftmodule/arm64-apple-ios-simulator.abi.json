@@ -1992,7 +1992,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:url:startDate:enabledDataTypes:)",
+            "printedName": "init(token:url:startDate:enabledDataTypes:enableDailyDetail:enableHeartRateSamples:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2058,11 +2058,41 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypesACSS_SSSg10Foundation0H0VSgSayAA0ab9HealthKitJ4TypeOGSgtcfc",
-            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypesACSS_SSSg10Foundation0H0VSgSayAA0ab9HealthKitJ4TypeOGSgtcfc",
+            "usr": "s:11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypes17enableDailyDetail0L16HeartRateSamplesACSS_SSSg10Foundation0H0VSgSayAA0ab9HealthKitJ4TypeOGSgSbSgAStcfc",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypes17enableDailyDetail0L16HeartRateSamplesACSS_SSSg10Foundation0H0VSgSayAA0ab9HealthKitJ4TypeOGSgSbSgAStcfc",
             "moduleName": "WeFitterLib",
             "declAttributes": [
               "AccessControl"
@@ -2072,7 +2102,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:url:startDate:enabledDataTypes:)",
+            "printedName": "init(token:url:startDate:enabledDataTypes:enableDailyDetail:enableHeartRateSamples:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2135,13 +2165,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:startDate:enabledDataTypes:",
-            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypesACSS_SSSg10Foundation0H0VSgSaySiGSgtcfc",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:startDate:enabledDataTypes:enableDailyDetail:enableHeartRateSamples:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url9startDate16enabledDataTypes17enableDailyDetail0L16HeartRateSamplesACSS_SSSg10Foundation0H0VSgSaySiGSgS2btcfc",
             "moduleName": "WeFitterLib",
-            "objc_name": "initWithToken:url:startDate:enabledDataTypes:",
+            "objc_name": "initWithToken:url:startDate:enabledDataTypes:enableDailyDetail:enableHeartRateSamples:",
             "declAttributes": [
               "Convenience",
               "AccessControl",
@@ -2260,6 +2302,130 @@
             "mangledName": "$s11WeFitterLib0aB6ConfigC5token9startDateACSS_10Foundation0G0VSgtcfc",
             "moduleName": "WeFitterLib",
             "objc_name": "initWithToken:startDate:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:enabledDataTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:enabledDataTypes:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token16enabledDataTypesACSS_SaySiGSgtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:enabledDataTypes:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:enableDailyDetail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:enableDailyDetail:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token17enableDailyDetailACSS_Sbtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:enableDailyDetail:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:enableHeartRateSamples:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:enableHeartRateSamples:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token22enableHeartRateSamplesACSS_Sbtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:enableHeartRateSamples:",
             "declAttributes": [
               "Convenience",
               "AccessControl",
@@ -2394,6 +2560,106 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(token:url:enableDailyDetail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:enableDailyDetail:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url17enableDailyDetailACSS_SSSgSbtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:url:enableDailyDetail:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:url:enableHeartRateSamples:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:url:enableHeartRateSamples:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token3url22enableHeartRateSamplesACSS_SSSgSbtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:url:enableHeartRateSamples:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(token:startDate:enabledDataTypes:)",
             "children": [
               {
@@ -2460,7 +2726,107 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:enabledDataTypes:)",
+            "printedName": "init(token:startDate:enableDailyDetail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:startDate:enableDailyDetail:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token9startDate17enableDailyDetailACSS_10Foundation0G0VSgSbtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:startDate:enableDailyDetail:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:startDate:enableHeartRateSamples:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:startDate:enableHeartRateSamples:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token9startDate22enableHeartRateSamplesACSS_10Foundation0G0VSgSbtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:startDate:enableHeartRateSamples:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:enabledDataTypes:enableDailyDetail:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2495,13 +2861,119 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:enabledDataTypes:",
-            "mangledName": "$s11WeFitterLib0aB6ConfigC5token16enabledDataTypesACSS_SaySiGSgtcfc",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:enabledDataTypes:enableDailyDetail:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token16enabledDataTypes17enableDailyDetailACSS_SaySiGSgSbtcfc",
             "moduleName": "WeFitterLib",
-            "objc_name": "initWithToken:enabledDataTypes:",
+            "objc_name": "initWithToken:enabledDataTypes:enableDailyDetail:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:enabledDataTypes:enableHeartRateSamples:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:enabledDataTypes:enableHeartRateSamples:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token16enabledDataTypes22enableHeartRateSamplesACSS_SaySiGSgSbtcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:enabledDataTypes:enableHeartRateSamples:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:enableDailyDetail:enableHeartRateSamples:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeFitterConfig",
+                "printedName": "WeFitterLib.WeFitterConfig",
+                "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WeFitterLib@objc(cs)WeFitterConfig(im)initWithToken:enableDailyDetail:enableHeartRateSamples:",
+            "mangledName": "$s11WeFitterLib0aB6ConfigC5token17enableDailyDetail0F16HeartRateSamplesACSS_S2btcfc",
+            "moduleName": "WeFitterLib",
+            "objc_name": "initWithToken:enableDailyDetail:enableHeartRateSamples:",
             "declAttributes": [
               "Convenience",
               "AccessControl",
@@ -4071,35 +4543,21 @@
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
-      "offset": 257,
-      "length": 17,
-      "value": "\"WeFitter\/Upload\""
-    },
-    {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 261,
       "length": 21,
       "value": "\"WeFitter\/UploadBulk\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
-      "offset": 257,
-      "length": 17,
-      "value": "\"WeFitter\/Upload\""
-    },
-    {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 261,
       "length": 21,
       "value": "\"WeFitter\/UploadBulk\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Files\/FileServer.swift",
       "kind": "StringLiteral",
-      "offset": 378,
+      "offset": 337,
       "length": 37,
       "value": "\"com.wefitter.queue.fileserver.write\""
     },
@@ -4449,49 +4907,63 @@
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "StringLiteral",
-      "offset": 6520,
+      "offset": 6696,
       "length": 14,
       "value": "\"WeFitterLib.WeFitterConfig\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "Array",
-      "offset": 8910,
+      "offset": 11897,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11928,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11967,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "StringLiteral",
-      "offset": 9022,
+      "offset": 12082,
       "length": 27,
       "value": "\"WeFitterCurrentProfileKey\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18647,
+      "offset": 21912,
       "length": 12,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18673,
+      "offset": 21938,
       "length": 9,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18647,
+      "offset": 21912,
       "length": 12,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/WeFitter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18673,
+      "offset": 21938,
       "length": 9,
       "value": "2"
     },
@@ -5415,7 +5887,7 @@
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Extensions\/UserDefaults.swift",
       "kind": "Dictionary",
-      "offset": 10195,
+      "offset": 10436,
       "length": 3,
       "value": "[]"
     },
@@ -5436,266 +5908,266 @@
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 3092,
+      "offset": 2972,
       "length": 10,
       "value": "\"workout-\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
-      "offset": 3953,
+      "offset": 3871,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 5350,
+      "offset": 5268,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5390,
+      "offset": 5308,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5435,
+      "offset": 5353,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5479,
+      "offset": 5397,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5524,
+      "offset": 5442,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5576,
+      "offset": 5494,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 5617,
+      "offset": 5535,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6509,
+      "offset": 6427,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6601,
+      "offset": 6519,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6691,
+      "offset": 6609,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6783,
+      "offset": 6701,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 6889,
+      "offset": 6807,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 7114,
+      "offset": 7032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7192,
+      "offset": 7110,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7832,
+      "offset": 7750,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7861,
+      "offset": 7779,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7889,
+      "offset": 7807,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "FloatLiteral",
-      "offset": 7918,
+      "offset": 7836,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8738,
+      "offset": 8656,
       "length": 33,
       "value": "\"sleep-episode-with-sleep-stages\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8822,
+      "offset": 8740,
       "length": 4,
       "value": "\"wf\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 8875,
+      "offset": 8793,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 9003,
+      "offset": 8921,
       "length": 15,
       "value": "\"sleep-episode\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 9069,
+      "offset": 8987,
       "length": 5,
       "value": "\"omh\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 9123,
+      "offset": 9041,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 11068,
+      "offset": 10956,
       "length": 17,
       "value": "\"wf-sleep-detail\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 11124,
+      "offset": 11012,
       "length": 4,
       "value": "\"wf\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 11165,
+      "offset": 11053,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 11374,
+      "offset": 11262,
       "length": 8,
       "value": "\"sleep-\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
-      "offset": 11914,
+      "offset": 11840,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 12057,
+      "offset": 11983,
       "length": 10,
       "value": "\"mindful-\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
-      "offset": 12693,
+      "offset": 12653,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 13341,
+      "offset": 13301,
       "length": 31,
       "value": "\"Error querying ECG sample: %@\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 13480,
+      "offset": 13440,
       "length": 36,
       "value": "\"Unknown result querying ECG sample\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 13741,
+      "offset": 13664,
       "length": 6,
       "value": "\"ecg-\""
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "Array",
-      "offset": 14295,
+      "offset": 14256,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Tools\/QueryResultsHandling.swift",
       "kind": "StringLiteral",
-      "offset": 14513,
+      "offset": 14474,
       "length": 7,
       "value": "\"body-\""
     },
@@ -5786,7 +6258,7 @@
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/Network\/URLRequestInfo.swift",
       "kind": "StringLiteral",
-      "offset": 3751,
+      "offset": 3316,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
@@ -5827,22 +6299,36 @@
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1289,
+      "length": 33,
+      "value": "\"com.wefitter.queue.statisticsDS\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 33,
+      "value": "\"com.wefitter.queue.statisticsDD\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1517,
+      "length": 33,
+      "value": "\"com.wefitter.queue.statisticsHR\""
+    },
+    {
+      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2031,
+      "offset": 2303,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2231,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ci\/Bamboo\/bamboo-agent-home\/xml-data\/build-dir\/THAAW-AHB2-JOB1\/WeFitterLib\/WeFitterLib\/DataManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2468,
+      "offset": 2528,
       "length": 1,
       "value": "1"
     },
