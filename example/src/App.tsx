@@ -50,6 +50,8 @@ export default function App() {
         url: 'CUSTOM_URL', // optional, the url should be base without `v1.3/ingest/` as the library will append this. Default: `https://api.wefitter.com/api/`
         startDate: 'CUSTOM_START_DATE', // optional with format `yyyy-MM-dd`, by default data of the past 20 days will be uploaded
         enabledDataTypes: ['CUSTOM_DATA_TYPES'], // optional array of datatypes to customize requested permissions. Default: all
+        enableDailyDetail: false, // optional boolean that enables uploading of daily detail. This wil result in a lot of extra processing and can slow down syncing of data when there is a lot of historic data. Default: false
+        enableHeartRateSamples: false, // optional boolean that enables uploading of heart rate samples. This wil result in a lot of extra processing and can slow down syncing of data when there is a lot of historic data. Default: false
       };
 
       // Configure should be called every time your app starts when HealthKit is supported

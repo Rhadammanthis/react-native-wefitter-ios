@@ -66,15 +66,24 @@ extension WeFitterLib.WeFitterHealthKitError : Foundation.LocalizedError {
 }
 public typealias BridgeCompletionHandler = (Swift.Bool, WeFitterLib.WeFitterHealthKitError?) -> Swift.Void
 @objc public class WeFitterConfig : ObjectiveC.NSObject {
-  public init(token: Swift.String, url: Swift.String? = nil, startDate: Foundation.Date? = nil, enabledDataTypes: [WeFitterLib.WeFitterHealthKitDataType]? = nil)
-  @objc convenience public init(token: Swift.String, url: Swift.String?, startDate: Foundation.Date?, enabledDataTypes: [Swift.Int]?)
+  public init(token: Swift.String, url: Swift.String? = nil, startDate: Foundation.Date? = nil, enabledDataTypes: [WeFitterLib.WeFitterHealthKitDataType]? = nil, enableDailyDetail: Swift.Bool? = nil, enableHeartRateSamples: Swift.Bool? = nil)
+  @objc convenience public init(token: Swift.String, url: Swift.String?, startDate: Foundation.Date?, enabledDataTypes: [Swift.Int]?, enableDailyDetail: Swift.Bool, enableHeartRateSamples: Swift.Bool)
   @objc convenience public init(token: Swift.String)
   @objc convenience public init(token: Swift.String, url: Swift.String?)
   @objc convenience public init(token: Swift.String, startDate: Foundation.Date?)
+  @objc convenience public init(token: Swift.String, enabledDataTypes: [Swift.Int]?)
+  @objc convenience public init(token: Swift.String, enableDailyDetail: Swift.Bool)
+  @objc convenience public init(token: Swift.String, enableHeartRateSamples: Swift.Bool)
   @objc convenience public init(token: Swift.String, url: Swift.String?, startDate: Foundation.Date?)
   @objc convenience public init(token: Swift.String, url: Swift.String?, enabledDataTypes: [Swift.Int]?)
+  @objc convenience public init(token: Swift.String, url: Swift.String?, enableDailyDetail: Swift.Bool)
+  @objc convenience public init(token: Swift.String, url: Swift.String?, enableHeartRateSamples: Swift.Bool)
   @objc convenience public init(token: Swift.String, startDate: Foundation.Date?, enabledDataTypes: [Swift.Int]?)
-  @objc convenience public init(token: Swift.String, enabledDataTypes: [Swift.Int]?)
+  @objc convenience public init(token: Swift.String, startDate: Foundation.Date?, enableDailyDetail: Swift.Bool)
+  @objc convenience public init(token: Swift.String, startDate: Foundation.Date?, enableHeartRateSamples: Swift.Bool)
+  @objc convenience public init(token: Swift.String, enabledDataTypes: [Swift.Int]?, enableDailyDetail: Swift.Bool)
+  @objc convenience public init(token: Swift.String, enabledDataTypes: [Swift.Int]?, enableHeartRateSamples: Swift.Bool)
+  @objc convenience public init(token: Swift.String, enableDailyDetail: Swift.Bool, enableHeartRateSamples: Swift.Bool)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class WeFitter : ObjectiveC.NSObject {
