@@ -269,7 +269,7 @@ PODS:
     - React-jsi (= 0.65.1)
     - React-perflogger (= 0.65.1)
   - React-jsinspector (0.65.1)
-  - react-native-wefitter-ios (1.5.1):
+  - react-native-wefitter-ios (2.0.0):
     - React-Core
   - React-perflogger (0.65.1)
   - React-RCTActionSheet (0.65.1):
@@ -501,7 +501,7 @@ SPEC CHECKSUMS:
   React-jsi: 12913c841713a15f64eabf5c9ad98592c0ec5940
   React-jsiexecutor: 43f2542aed3c26e42175b339f8d37fe3dd683765
   React-jsinspector: 41e58e5b8e3e0bf061fdf725b03f2144014a8fb0
-  react-native-wefitter-ios: 21b52bbbed04d53dffeaa474f9c6c7436f7ca162
+  react-native-wefitter-ios: 1c7c792d49cd6179b3b53bc6e33dc97e3c843f0d
   React-perflogger: fd28ee1f2b5b150b00043f0301d96bd417fdc339
   React-RCTActionSheet: 7f3fa0855c346aa5d7c60f9ced16e067db6d29fa
   React-RCTAnimation: 2119a18ee26159004b001bc56404ca5dbaae6077
@@ -519,4 +519,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: b7509d4e00080e4ea11a1ff4c0ea8fa71a5be488
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.14.2
