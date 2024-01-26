@@ -2,6 +2,8 @@ import { NativeModules } from 'react-native';
 
 export enum WeFitterHealthKitDataType {
   ActiveEnergyBurned,
+  AppleExerciseTime,
+  AppleMoveTime, // only available iOS 14.5+
   BasalEnergyBurned,
   BloodGlucose,
   BloodPressureDiastolic,
@@ -10,6 +12,9 @@ export enum WeFitterHealthKitDataType {
   BodyMass,
   BodyMassIndex,
   BodyTemperature,
+  CyclingCadence, // only available iOS 17+
+  CyclingPower, // only available iOS 17+
+  CyclingSpeed, // only available iOS 17+
   DistanceCycling,
   DistanceDownhillSnowSports,
   DistanceSwimming,
@@ -22,9 +27,14 @@ export enum WeFitterHealthKitDataType {
   MindfulSession,
   OxygenSaturation,
   RestingHeartRate,
+  RunningPower, // only available iOS 16+
+  RunningSpeed, // only available iOS 16+
   SleepAnalysis,
+  StairAscentSpeed, // only available iOS 14+
+  StairDescentSpeed, // only available iOS 14+
   StepCount,
   Vo2Max,
+  WalkingSpeed, // only available iOS 14+
   Workout,
 }
 

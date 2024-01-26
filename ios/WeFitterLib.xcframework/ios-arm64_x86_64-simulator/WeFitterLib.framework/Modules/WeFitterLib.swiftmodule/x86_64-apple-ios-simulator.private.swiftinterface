@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios11.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WeFitterLib
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WeFitterLib
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import HealthKit
@@ -8,6 +8,7 @@ import Swift
 @_exported import WeFitterLib
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os.log
 import os
 public enum WeFitterHealthKitError : Swift.Error {
@@ -30,6 +31,8 @@ extension WeFitterLib.WeFitterHealthKitError : Foundation.LocalizedError {
 }
 @objc public enum WeFitterHealthKitDataType : Swift.Int, Swift.CaseIterable {
   case activeEnergyBurned
+  case appleExerciseTime
+  case appleMoveTime
   case basalEnergyBurned
   case bloodGlucose
   case bloodPressureDiastolic
@@ -38,6 +41,9 @@ extension WeFitterLib.WeFitterHealthKitError : Foundation.LocalizedError {
   case bodyMass
   case bodyMassIndex
   case bodyTemperature
+  case cyclingCadence
+  case cyclingPower
+  case cyclingSpeed
   case distanceCycling
   case distanceDownhillSnowSports
   case distanceSwimming
@@ -50,9 +56,14 @@ extension WeFitterLib.WeFitterHealthKitError : Foundation.LocalizedError {
   case mindfulSession
   case oxygenSaturation
   case restingHeartRate
+  case runningPower
+  case runningSpeed
   case sleepAnalysis
+  case stairAscentSpeed
+  case stairDescentSpeed
   case stepCount
   case vo2Max
+  case walkingSpeed
   case workout
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [WeFitterLib.WeFitterHealthKitDataType]
