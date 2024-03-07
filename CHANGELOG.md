@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2
+
+Fixed crash when trying to read `cyclingCadence`
+
 ## 2.0.1
 
 Fixed missing heart rate and steps in workout
