@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.0.2
+
+Fixed crash when trying to read `cyclingCadence`
+
+## 2.0.1
+
+Fixed missing heart rate and steps in workout
+
+Added streaming data to workouts
+
 ## 2.0.0
 
 Improved check that determines if there is new data that should be uploaded
