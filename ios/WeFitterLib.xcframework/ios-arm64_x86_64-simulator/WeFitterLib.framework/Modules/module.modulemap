@@ -1,7 +1,7 @@
 framework module WeFitterLib {
   umbrella header "WeFitterLib.h"
-
   export *
+
   module * { export * }
 }
 
